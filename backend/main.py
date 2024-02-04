@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 import asyncio
 import aiohttp
 import json
@@ -6,16 +6,20 @@ import json
 app = Flask(__name__)
 port = 8080
 
+PROXY_ADDRESS = 'http://localhost:8000/'
+
+def proxy_url(url):
+    return PROXY_ADDRESS + url
+
 async def fetch(session, url, payload=None):
-    async with session.post(url, json=payload, headers={"X-Requested-With": "XMLHttpRequest"}) as response:
+    async with session.post(proxy_url(url), json=payload, headers={"X-Requested-With": "XMLHttpRequest"}) as response:
         return await response.json()
 
 async def process_match(session, match):
     match_id = match['id']
-    odds_url = 'http://localhost:8000/https://www.mozzartbet.com/matchBetting'
+    odds_url = 'https://www.mozzartbet.com/matchBetting'
     match_odds = await fetch(session, odds_url, payload={'id': match_id})
     match_odds = match_odds['kodds']
-    # print(match_odds)
     sub_game_odds = {
         'pairs': [
             {"1": None, "x": None, "2": None},
@@ -91,7 +95,7 @@ async def process_match(session, match):
     return match
 
 async def fetch_matches():
-    offers_url = 'http://localhost:8000/https://www.mozzartbet.com/betOffer2'
+    offers_url = 'https://www.mozzartbet.com/betOffer2'
     payload = {
         "date": "three_days",
         "sportIds": [1],
@@ -129,4 +133,4 @@ async def mozzart():
     return jsonify(matches), 202
 
 if __name__ == '__main__':
-    app.run(port=port)
+    app.run(port=port, debug=True)
