@@ -1,0 +1,122 @@
+{
+    "Sve": {
+        "Konacan ishod": {
+            "K1": "",
+            "KX": "",
+            "K2": ""
+        },
+        "Konacan ishod sa produzetcima": {
+            "FTOT1": "",
+            "FTOT2": ""
+        },
+        "Dupla sansa": {
+            "1X": "",
+            "X2": ""
+        },
+        "Hendikep Domacin":{
+            "H1" : ""
+        },
+        "Hendikep Gost":{
+            "H2" : ""
+        },
+        "Hendikep Poluvreme":{
+            "HP1": "",
+            "HP2": ""
+        },  
+        "Ukupno Poena Vise":{
+            "UP+" : ""
+        },
+        "Ukupno Poena Manje":{
+            "UP-" : ""
+        },
+        "Ukupno Poena Domacin": {
+            "D-": "",
+            "D+": ""
+        },
+        "Ukupno Poena Gost": {
+            "G-": "",
+            "G+": ""
+        },
+        "Ukupno Poena Prvo Poluvreme": {
+            "P-": "",
+            "P+": ""
+        },
+        "Ukupno Poena Drugo Poluvreme": {
+            "2P-": "",
+            "2P+": ""
+        },
+        "Ukupno Poena Domacin Poluvreme": {
+            "DP-": "",
+            "DP+": ""
+        },
+        "Ukupno Poena Gost Poluvreme": {
+            "GP-": "",
+            "GP+": ""
+        },
+        "Ukupno Poena Prva Cetvrtina": {
+            "Q1-": "",
+            "Q1+": ""
+        },
+        "Mix Igre":{
+            "1&-" : "",
+            "1&+" : "",
+            "2&-" : "",
+            "2&+" : ""
+        },
+        "Poluvreme - kraj": {
+            "1-1": "",
+            "1-X": "",
+            "1-2": "",
+            "X-1": "",
+            "X-X": "",
+            "X-2": "",
+            "2-1": "",
+            "2-X": "",
+            "2-2": ""
+        },
+        "Dupla pobeda": {
+            "DP1": "",
+            "DP2": ""
+        },
+        "1. Poluvreme": {
+            "P1": "",
+            "PX": "",
+            "P2": ""
+        },
+        "Konacan ishod I cetvrtina": {
+            "Q11": "",
+            "Q1X": "",
+            "Q12": ""
+        },
+        "Konacan ishod II cetvrtina": {
+            "Q21": "",
+            "Q2X": "",
+            "Q22": ""
+        },
+        "Konacan ishod III cetvrtina": {
+            "Q31": "",
+            "Q3X": "",
+            "Q32": ""
+        },
+        "Konacan ishod IV cetvrtina": {
+            "Q41": "",
+            "Q4X": "",
+            "Q42": ""
+        },
+        "Pada vise poena": {
+            "I>": "",
+            "II>": "",
+            "I=II": ""
+        },
+        "Cetvrtina sa najvise poena": {
+            "Q1": "",
+            "Q2": "",
+            "Q3": "",
+            "Q4": ""
+        },
+        "Winner": {
+            "W1": "",
+            "W2": ""
+        }
+    }
+}

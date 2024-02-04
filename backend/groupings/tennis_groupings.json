@@ -1,0 +1,88 @@
+{
+    "Sve": {
+        "Konacan ishod": {
+            "K1": "",
+            "K2": ""
+        },
+        "Prvi set - kraj": {
+            "S1-1": "",
+            "S1-2": "",
+            "S2-1": "",
+            "S2-2": ""
+        },
+        "Prvi set": {
+            "PS1": "",
+            "PS2": ""
+        },
+        "Drugi set": {
+            "DS1": "",
+            "DS2": ""
+        },
+        "Tacan broj setova": {
+            "S2": "",
+            "S3": "",
+            "S4": "",
+            "S5": ""
+        },
+        "Tie break": {
+            "TBDA": "",
+            "TBNE": ""
+        },
+        "Tacan rezultat": {
+            "S0:2": "",
+            "S1:2": "",
+            "S2:0": "",
+            "S2:1": "",
+            "S0:3": "",
+            "S1:3": "",
+            "S2:3": "",
+            "S3:0": "",
+            "S3:1": "",
+            "S3:2": ""
+        },
+        "Mix Igre":{
+            "1&-" : "",
+            "1&+" : "",
+            "2&-" : "",
+            "2&+" : ""
+        },
+        "Hendikep Setovi Domacin":{
+            "HS1" : ""
+        },
+        "Hendikep Setovi Gost":{
+            "HS2" : ""
+        },
+        "Hendikep Gemovi Domacin":{
+            "HG1" : ""
+        },
+        "Hendikep Gemovi Gost":{
+            "HG2" : ""
+        },
+        "Hendikep Prvi Set Domacin":{
+            "S1H1" : ""
+        },
+        "Hendikep Prvi Set Gost":{
+            "S1H2" : ""
+        },
+        "Ukupno Gemova Vise":{
+            "UG+" : ""
+        },
+        "Ukupno Gemova Manje":{
+            "UG-" : ""
+        },
+        "Prvi Set Gemova Vise":{
+            "S1G+" : ""
+        },
+        "Prvi Set Gemova Manje":{
+            "S1G-" : ""
+        },
+        "Ukupno Gemova Domacin":{
+            "D+": "",
+            "D-": ""
+        },
+        "Ukupno Gemova Gost":{
+            "G+": "",
+            "G-": ""
+        }
+    }
+}
