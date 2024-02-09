@@ -2,9 +2,9 @@ from abc import ABC, abstractmethod
 
 class Bookmaker(ABC):
     @abstractmethod
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
 
     @abstractmethod
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass

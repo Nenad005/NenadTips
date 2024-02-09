@@ -14,12 +14,18 @@ def create_python_files():
             f.write(f"class {folder}(Bookmaker):\n")
             f.write(f"    def __init__(self):\n")
             f.write(f"        super().__init__('{folder}')\n\n")
-            f.write(f"    def getAllMatchOdds(self):\n")
+            f.write(f"    def getAllMatchOdds():\n")
             f.write(f"        pass\n")
             f.write(f"        # Implement getAllMatchOdds method for {folder}\n")
-            f.write(f"    def getMatchOdds(self, link):\n")
+            f.write(f"    def getMatchOdds(link):\n")
             f.write(f"        pass\n")
             f.write(f"        # Implement getMatchOdds method for {folder}\n")
     
 if __name__ == "__main__":
     create_python_files()
+
+# import datetime
+
+# timestamp = 1707148800000
+# date = datetime.datetime.utcfromtimestamp(timestamp / 1000)
+# print(date.strftime('%Y-%m-%d %H:%M:%S')) 

@@ -6,9 +6,9 @@ class AdmiralBet(Bookmaker):
     def __init__(self):
         super().__init__('AdmiralBet')
 
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
         # Implement getAllMatchOdds method for AdmiralBet
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass
         # Implement getMatchOdds method for AdmiralBet

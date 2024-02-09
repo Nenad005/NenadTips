@@ -6,9 +6,9 @@ class MaxBet(Bookmaker):
     def __init__(self):
         super().__init__('MaxBet')
 
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
         # Implement getAllMatchOdds method for MaxBet
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass
         # Implement getMatchOdds method for MaxBet

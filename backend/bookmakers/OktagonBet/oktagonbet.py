@@ -6,9 +6,9 @@ class OktagonBet(Bookmaker):
     def __init__(self):
         super().__init__('OktagonBet')
 
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
         # Implement getAllMatchOdds method for OktagonBet
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass
         # Implement getMatchOdds method for OktagonBet

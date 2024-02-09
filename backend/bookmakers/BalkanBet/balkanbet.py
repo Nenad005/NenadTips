@@ -6,9 +6,9 @@ class BalkanBet(Bookmaker):
     def __init__(self):
         super().__init__('BalkanBet')
 
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
         # Implement getAllMatchOdds method for BalkanBet
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass
         # Implement getMatchOdds method for BalkanBet

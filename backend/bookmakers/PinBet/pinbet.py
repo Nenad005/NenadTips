@@ -6,9 +6,9 @@ class PinBet(Bookmaker):
     def __init__(self):
         super().__init__('PinBet')
 
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
         # Implement getAllMatchOdds method for PinBet
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass
         # Implement getMatchOdds method for PinBet

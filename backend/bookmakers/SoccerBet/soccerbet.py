@@ -6,9 +6,9 @@ class SoccerBet(Bookmaker):
     def __init__(self):
         super().__init__('SoccerBet')
 
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
         # Implement getAllMatchOdds method for SoccerBet
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass
         # Implement getMatchOdds method for SoccerBet

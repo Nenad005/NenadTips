@@ -6,9 +6,9 @@ class MerkurXTIP(Bookmaker):
     def __init__(self):
         super().__init__('MerkurXTIP')
 
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
         # Implement getAllMatchOdds method for MerkurXTIP
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass
         # Implement getMatchOdds method for MerkurXTIP

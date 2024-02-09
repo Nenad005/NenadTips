@@ -6,9 +6,9 @@ class MeridianBet(Bookmaker):
     def __init__(self):
         super().__init__('MeridianBet')
 
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
         # Implement getAllMatchOdds method for MeridianBet
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass
         # Implement getMatchOdds method for MeridianBet

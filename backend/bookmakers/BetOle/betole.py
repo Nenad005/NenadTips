@@ -6,9 +6,9 @@ class BetOle(Bookmaker):
     def __init__(self):
         super().__init__('BetOle')
 
-    def getAllMatchOdds(self):
+    def getAllMatchOdds():
         pass
         # Implement getAllMatchOdds method for BetOle
-    def getMatchOdds(self, link):
+    def getMatchOdds(link):
         pass
         # Implement getMatchOdds method for BetOle
