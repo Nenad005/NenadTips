@@ -1,0 +1,131 @@
+{
+    "match": {
+        "match_url": null,
+        "teams": {
+            "home": null,
+            "away": null
+        },
+        "odds": {
+            "result": {
+                "fh": {
+                    "home": null,
+                    "x": null,
+                    "away": null
+                },
+                "sh": {
+                    "home": null,
+                    "x": null,
+                    "away": null
+                },
+                "ft": {
+                    "home": null,
+                    "x": null,
+                    "away": null
+                }
+            },
+            "first_goal": {
+                "fh": {
+                    "home": null,
+                    "x": null,
+                    "away": null
+                },
+                "sh": {
+                    "home": null,
+                    "x": null,
+                    "away": null
+                }
+            },
+            "double_chance": {
+                "fh": {
+                    "1x": null,
+                    "2x": null,
+                    "12": null
+                },
+                "sh": {
+                    "1x": null,
+                    "2x": null,
+                    "12": null
+                },
+                "ft": {
+                    "1x": null,
+                    "2x": null,
+                    "12": null
+                }
+            },
+            "goals": {
+                "fh": {
+                    "home": {
+                        "0": null,
+                        "1": null,
+                        "2": null,
+                        "2+": null
+                    },
+                    "away": {
+                        "0": null,
+                        "1": null,
+                        "2": null,
+                        "2+": null
+                    },
+                    "total": {
+                        "0": null,
+                        "1": null,
+                        "2": null,
+                        "3": null,
+                        "over_0.5": null,
+                        "over_1.5": null,
+                        "over_2.5": null
+                    }
+                },
+                "sh": {
+                    "home": {
+                        "0": null,
+                        "1": null,
+                        "2": null,
+                        "2+": null
+                    },
+                    "away": {
+                        "0": null,
+                        "1": null,
+                        "2": null,
+                        "2+": null
+                    },
+                    "total": {
+                        "0": null,
+                        "1": null,
+                        "2": null,
+                        "3": null,
+                        "over_0.5": null,
+                        "over_1.5": null,
+                        "over_2.5": null
+                    }
+                },
+                "ft": {
+                    "home": {
+                        "0": null,
+                        "1": null,
+                        "2": null,
+                        "3": null,
+                        "4+": null
+                    },
+                    "away": {
+                        "0": null,
+                        "1": null,
+                        "2": null,
+                        "3": null,
+                        "4+": null
+                    },
+                    "total": {
+                        "over_0.5": null,
+                        "over_1.5": null,
+                        "over_2.5": null,
+                        "over_3.5": null,
+                        "under_1.5": null,
+                        "under_2.5": null,
+                        "even": null,
+                        "odd": null
+                    }
+                }
+            }
+        }
+    }
+}
