@@ -39,10 +39,10 @@ class MozzartBet:
         with open(filename, "w") as file:
             json.dump(content, file, indent=4)
 
-    def make_dummy_post_request(self):
+    def make_request(self):
         url = f"{PROXY_ADDRESS}https://www.mozzartbet.com/betting/matches"
         data = {
-            "date": "all_days",
+            "date": "three_days",
             "sort": "bycompetition",
             "currentPage": 0,
             "pageSize": 100,
@@ -64,5 +64,5 @@ class MozzartBet:
 if __name__ == "__main__":
     mozzart = MozzartBet()
     mozzart.start_session()
-    mozzart.make_dummy_post_request()
+    mozzart.make_request()
     mozzart.close_session()
