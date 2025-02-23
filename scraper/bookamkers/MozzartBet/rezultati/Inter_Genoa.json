@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726962",
     "teams": {
         "home": "Inter",
         "away": "Genoa"
     },
+    "time": 1740253500000,
+    "competition": "ITALIJA  1",
     "odds": {
         "result": {
             "fh": {

@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726875",
     "teams": {
         "home": "AZ Alkmaar",
         "away": "Fortuna S."
     },
+    "time": 1740325500000,
+    "competition": "HOLANDIJA  1",
     "odds": {
         "result": {
             "fh": {

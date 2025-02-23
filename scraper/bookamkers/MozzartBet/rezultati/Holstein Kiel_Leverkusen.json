@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726937",
     "teams": {
         "home": "Holstein Kiel",
         "away": "Leverkusen"
     },
+    "time": 1740234600000,
+    "competition": "NEMA\u010cKA  1",
     "odds": {
         "result": {
             "fh": {

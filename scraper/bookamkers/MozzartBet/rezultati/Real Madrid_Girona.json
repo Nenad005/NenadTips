@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726825",
     "teams": {
         "home": "Real Madrid",
         "away": "Girona"
     },
+    "time": 1740323700000,
+    "competition": "\u0160PANIJA  1",
     "odds": {
         "result": {
             "fh": {

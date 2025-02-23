@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726864",
     "teams": {
         "home": "Twente",
         "away": "NEC"
     },
+    "time": 1740317400000,
+    "competition": "HOLANDIJA  1",
     "odds": {
         "result": {
             "fh": {

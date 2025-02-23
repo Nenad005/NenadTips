@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726939",
     "teams": {
         "home": "Lille",
         "away": "Monaco"
     },
+    "time": 1740240000000,
+    "competition": "FRANCUSKA  1",
     "odds": {
         "result": {
             "fh": {

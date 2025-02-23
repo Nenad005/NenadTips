@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726964",
     "teams": {
         "home": "Venezia",
         "away": "Lazio"
     },
+    "time": 1740232800000,
+    "competition": "ITALIJA  1",
     "odds": {
         "result": {
             "fh": {

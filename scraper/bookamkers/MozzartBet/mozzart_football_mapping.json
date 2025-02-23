@@ -4,6 +4,8 @@
         "home": null,
         "away": null
     },
+    "time": null,
+    "competition": null,
     "odds": {
         "result": {
             "fh": {

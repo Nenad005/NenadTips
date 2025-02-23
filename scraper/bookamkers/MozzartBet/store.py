@@ -12,6 +12,9 @@ for item in items:
     home = item["home"]["name"]
     away = item["visitor"]["name"]
     competition = item["competition"]["name"]
+    time = item["startTime"]
+    match_url = "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/" + str(item["id"])
+
     print(home, away, competition)
 
     if "odds" not in item.keys():
@@ -31,6 +34,9 @@ for item in items:
 
     map["teams"]["home"] = home
     map["teams"]["away"] = away
+    map["competition"] = competition
+    map["time"] = time
+    map["match_url"] = match_url
     for cat in map["odds"].keys():
         for subcat in map["odds"][cat].keys():
             print(map["odds"][cat][subcat])

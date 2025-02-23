@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726954",
     "teams": {
         "home": "Torino",
         "away": "Milan"
     },
+    "time": 1740243600000,
+    "competition": "ITALIJA  1",
     "odds": {
         "result": {
             "fh": {

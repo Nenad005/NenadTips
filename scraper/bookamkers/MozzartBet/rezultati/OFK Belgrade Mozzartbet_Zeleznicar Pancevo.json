@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726563",
     "teams": {
         "home": "OFK Belgrade Mozzartbet",
         "away": "Zeleznicar Pancevo"
     },
+    "time": 1740225600000,
+    "competition": "SRBIJA 1 MozzartBet Superliga",
     "odds": {
         "result": {
             "fh": {

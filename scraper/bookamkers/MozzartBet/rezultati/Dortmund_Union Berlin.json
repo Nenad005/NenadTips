@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726934",
     "teams": {
         "home": "Dortmund",
         "away": "Union Berlin"
     },
+    "time": 1740245400000,
+    "competition": "NEMA\u010cKA  1",
     "odds": {
         "result": {
             "fh": {

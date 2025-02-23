@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726906",
     "teams": {
         "home": "Bournemouth",
         "away": "Wolverhampton"
     },
+    "time": 1740236400000,
+    "competition": "ENGLESKA  1",
     "odds": {
         "result": {
             "fh": {
