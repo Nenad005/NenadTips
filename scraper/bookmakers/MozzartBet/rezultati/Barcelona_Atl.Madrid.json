@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8725898",
     "teams": {
         "home": "Barcelona",
         "away": "Atl.Madrid"
     },
+    "time": "2025-02-25T21:30:00",
+    "competition": "\u0160PANIJA  -  KUP",
     "odds": {
         "result": {
             "fh": {

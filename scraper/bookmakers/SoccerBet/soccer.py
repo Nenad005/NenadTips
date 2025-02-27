@@ -44,6 +44,8 @@ def scroll_to_bottom(driver):
         if (prev_children_count > 50):
             return
 
+scroll_to_bottom(driver)
+
 # count the number of bet elements
 count = driver.execute_script('return document.querySelectorAll("ds-prematch-top").length')
 print(count)
@@ -166,7 +168,7 @@ for i in range(count):
     map["teams"]["home"] = home
     map["teams"]["away"] = away
     map["competition"] = competition_text.strip()
-    map["time"] = date.timestamp()
+    map["time"] = date.isoformat()
     map["match_url"] = match_url
 
     with open(f"rezultati/{home}_{away}.json", "w") as file:

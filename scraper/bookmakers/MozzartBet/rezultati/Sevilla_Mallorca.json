@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726799",
     "teams": {
         "home": "Sevilla",
         "away": "Mallorca"
     },
+    "time": "2025-02-24T21:00:00",
+    "competition": "\u0160PANIJA  1",
     "odds": {
         "result": {
             "fh": {

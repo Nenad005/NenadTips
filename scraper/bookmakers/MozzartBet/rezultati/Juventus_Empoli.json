@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8725862",
     "teams": {
         "home": "Juventus",
         "away": "Empoli"
     },
+    "time": "2025-02-26T21:00:00",
+    "competition": "ITALIJA  -  KUP",
     "odds": {
         "result": {
             "fh": {

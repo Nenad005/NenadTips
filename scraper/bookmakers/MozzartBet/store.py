@@ -1,5 +1,6 @@
 import json
 import copy
+from datetime import datetime
 
 with open ('mozzart.json', 'r') as file:
     data = json.load(file)
@@ -13,6 +14,7 @@ for item in items:
     away = item["visitor"]["name"]
     competition = item["competition"]["name"]
     time = item["startTime"]
+    time = datetime.fromtimestamp(time / 1000).isoformat()
     match_url = "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/" + str(item["id"])
 
     print(home, away, competition)

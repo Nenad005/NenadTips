@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8726907",
     "teams": {
         "home": "Roma",
         "away": "Monza"
     },
+    "time": "2025-02-24T20:45:00",
+    "competition": "ITALIJA  1",
     "odds": {
         "result": {
             "fh": {

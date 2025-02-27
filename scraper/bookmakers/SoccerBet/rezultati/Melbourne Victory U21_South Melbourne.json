@@ -1,0 +1,132 @@
+{
+    "match_url": "https://www.soccerbet.rs/sr/sportsko-kladjenje/fudbal/S/australija-npl-viktorija/2516046/special/melbourne-victory-u21-v-south-melbourne/512492950",
+    "teams": {
+        "home": "Melbourne Victory U21",
+        "away": "South Melbourne"
+    },
+    "time": "2025-02-24T10:30:00",
+    "competition": "AUSV",
+    "odds": {
+        "result": {
+            "fh": {
+                "home": 5.65,
+                "x": 2.47,
+                "away": 1.8
+            },
+            "sh": {
+                "home": 5.55,
+                "x": 2.95,
+                "away": 1.62
+            },
+            "ft": {
+                "home": 6.55,
+                "x": 4.3,
+                "away": 1.38
+            }
+        },
+        "first_goal": {
+            "fh": {
+                "home": 3.3,
+                "away": 1.65
+            },
+            "ft": {
+                "home": 2.95,
+                "away": 1.34
+            }
+        },
+        "double_chance": {
+            "fh": {
+                "1x": null,
+                "2x": null,
+                "12": null
+            },
+            "ft": {
+                "1x": 2.6,
+                "2x": 1.05,
+                "12": 1.14
+            }
+        },
+        "goals": {
+            "fh": {
+                "home": {
+                    "0": 1.38,
+                    "0-1": null,
+                    "over_0.5": 2.7,
+                    "over_1.5": 12.1
+                },
+                "away": {
+                    "0": 2.37,
+                    "0-1": 1.28,
+                    "over_0.5": 1.5,
+                    "over_1.5": 3.25
+                },
+                "total": {
+                    "0": 3.35,
+                    "0-1": 1.55,
+                    "0-2": 1.13,
+                    "over_0.5": 1.27,
+                    "over_1.5": null,
+                    "over_2.5": null
+                }
+            },
+            "sh": {
+                "home": {
+                    "0": 1.55,
+                    "0-1": 1.03,
+                    "over_0.5": 2.25,
+                    "over_1.5": 8.2
+                },
+                "away": {
+                    "0": 3.05,
+                    "0-1": 1.48,
+                    "over_0.5": 1.31,
+                    "over_1.5": 2.4
+                },
+                "total": {
+                    "0": 4.85,
+                    "0-1": 1.95,
+                    "0-2": 1.29,
+                    "over_0.5": 1.14,
+                    "over_1.5": 1.75,
+                    "over_2.5": 3.25
+                }
+            },
+            "ft": {
+                "home": {
+                    "0": 2.18,
+                    "0-1": 1.22,
+                    "0-2": null,
+                    "0-3": null,
+                    "over_0.5": 1.6,
+                    "over_1.5": 3.8,
+                    "over_2.5": 12.2,
+                    "over_3.5": 49.0
+                },
+                "away": {
+                    "0": 7.5,
+                    "0-1": 2.6,
+                    "0-2": 1.55,
+                    "0-3": 1.18,
+                    "over_0.5": 1.05,
+                    "over_1.5": 1.43,
+                    "over_2.5": 2.27,
+                    "over_3.5": 4.25
+                },
+                "total": {
+                    "0": 14.6,
+                    "0-1": 4.6,
+                    "0-2": 2.3,
+                    "0-3": 1.53,
+                    "0-4": 1.2,
+                    "over_0.5": null,
+                    "over_1.5": 1.16,
+                    "over_2.5": 1.55,
+                    "over_3.5": 2.32,
+                    "over_4.5": 4.0,
+                    "even": null,
+                    "odd": null
+                }
+            }
+        }
+    }
+}

@@ -1,9 +1,11 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8725848",
     "teams": {
         "home": "Liverpool",
         "away": "Newcastle"
     },
+    "time": "2025-02-26T21:15:00",
+    "competition": "ENGLESKA  1",
     "odds": {
         "result": {
             "fh": {

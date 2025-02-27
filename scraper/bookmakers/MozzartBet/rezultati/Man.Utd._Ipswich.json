@@ -1,13 +1,15 @@
 {
-    "match_url": null,
+    "match_url": "https://www.mozzartbet.com/sr/kladjenje/sport/1/match/8725867",
     "teams": {
         "home": "Man.Utd.",
         "away": "Ipswich"
     },
+    "time": "2025-02-26T20:30:00",
+    "competition": "ENGLESKA  1",
     "odds": {
         "result": {
             "fh": {
-                "home": 1.92,
+                "home": 1.88,
                 "x": 2.4,
                 "away": 5.8
             },
@@ -17,30 +19,30 @@
                 "away": 5.5
             },
             "ft": {
-                "home": 1.53,
+                "home": 1.52,
                 "x": 4.2,
                 "away": 6.25
             }
         },
         "first_goal": {
             "fh": {
-                "home": 1.75,
-                "away": 4.1
+                "home": 1.7,
+                "away": 4.4
             },
             "ft": {
-                "home": 1.38,
+                "home": 1.37,
                 "away": 3.45
             }
         },
         "double_chance": {
             "fh": {
-                "1x": 1.07,
+                "1x": 1.05,
                 "2x": 1.7,
-                "12": 1.44
+                "12": 1.42
             },
             "ft": {
                 "1x": 1.12,
-                "2x": 1.23,
+                "2x": 1.22,
                 "12": 2.5
             }
         },
@@ -70,9 +72,9 @@
             "sh": {
                 "home": {
                     "0": 2.6,
-                    "0-1": 1.35,
+                    "0-1": 1.36,
                     "over_0.5": 1.43,
-                    "over_1.5": 2.95
+                    "over_1.5": 2.9
                 },
                 "away": {
                     "0": 1.51,
@@ -98,7 +100,7 @@
                     "over_0.5": 1.05,
                     "over_1.5": 1.58,
                     "over_2.5": 2.85,
-                    "over_3.5": 6
+                    "over_3.5": 5.7
                 },
                 "away": {
                     "0": 2.25,

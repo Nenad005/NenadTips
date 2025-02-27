@@ -1,129 +1,143 @@
 from fuzzywuzzy import fuzz
 import re
 import unicodedata
+from datetime import datetime
 
-def normalize_team_name(name):
-    """
-    Enhanced normalization with:
-    - Dash/dot replacement
-    - Capitalized initial splitting
-    - Improved abbreviation handling
-    """
-    # Convert to ASCII and preserve case temporarily
-    normalized = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore').decode('ascii')
-    
-    # Replace dashes and dots with spaces
-    normalized = re.sub(r'[-.]', ' ', normalized)
-    
-    # Split into words and process capitalization
-    words = []
-    for word in normalized.split():
-        # Split all-caps words into individual letters
-        if word.isupper() and len(word) > 1:
-            words.extend(list(word))
-        # Split camelCase words (e.g., "NewYork" -> "New York")
-        elif re.match(r'^[A-Z][a-z]+$', word):
-            words.extend(re.findall(r'[A-Z][a-z]*', word))
+class TeamMatcher:
+    def __init__(self, threshold=0.75):
+        self.threshold = threshold
+
+    def normalize_team_name(self, name):
+        """
+        Enhanced normalization with:
+        - Dash/dot replacement
+        - Capitalized initial splitting
+        - Improved abbreviation handling
+        """
+        # Convert to ASCII and preserve case temporarily
+        normalized = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore').decode('ascii')
+        
+        # Replace dashes and dots with spaces
+        normalized = re.sub(r'[-.]', ' ', normalized)
+        
+        # Split into words and process capitalization
+        words = []
+        for word in normalized.split():
+            # Split all-caps words into individual letters
+            if word.isupper() and len(word) > 1:
+                words.extend(list(word))
+            # Split camelCase words (e.g., "NewYork" -> "New York")
+            elif re.match(r'^[A-Z][a-z]+$', word):
+                words.extend(re.findall(r'[A-Z][a-z]*', word))
+            else:
+                words.append(word)
+        
+        # Rebuild string and lowercase
+        normalized = ' '.join(words).lower()
+        
+        # Remove remaining special characters
+        normalized = re.sub(r'[^\w\s]', '', normalized)
+        
+        # Enhanced abbreviation mapping
+        abbreviation_map = {
+            'fc': 'football club',
+            'cf': 'club de futbol',
+            'utd': 'united',
+            'inter': 'internazionale',
+            'man': 'manchester',
+            'spurs': 'tottenham',
+            'atletico': 'atlético',
+            'as': 'associazione sportiva',
+            'afc': 'association football club',
+            'ssc': 'sporting soccer club'
+        }
+        
+        # Replace abbreviations with full forms
+        return ' '.join([abbreviation_map.get(word, word) for word in normalized.split()])
+
+    def get_initials(self, normalized_name):
+        """Extract initials from normalized name"""
+        return ''.join([word[0] for word in normalized_name.split() if word])
+
+    def calculate_similarity(self, name1, name2):
+        """
+        Enhanced similarity calculation with:
+        - Initial sequence matching
+        - Improved weight distribution
+        """
+        norm1 = self.normalize_team_name(name1)
+        norm2 = self.normalize_team_name(name2)
+        
+        # Whole word matches
+        words1 = set(norm1.split())
+        words2 = set(norm2.split())
+        common_words = words1 & words2
+        whole_word_score = len(common_words) / max(len(words1), len(words2))
+        
+        # Initials matching
+        initials1 = self.get_initials(norm1)
+        initials2 = self.get_initials(norm2)
+        initials_score = fuzz.ratio(initials1, initials2) / 100
+        
+        # Sequence matching
+        lev_score = fuzz.ratio(norm1, norm2) / 100
+        token_score = fuzz.token_sort_ratio(norm1, norm2) / 100
+        
+        # Weighted scoring (adjust weights as needed)
+        weights = {
+            'whole_word': 0.3,
+            'initials': 0.3,
+            'levenshtein': 0.2,
+            'token': 0.2
+        }
+        
+        return (
+            (weights['whole_word'] * whole_word_score) +
+            (weights['initials'] * initials_score) +
+            (weights['levenshtein'] * lev_score) +
+            (weights['token'] * token_score)
+        )
+
+    def match_names(self, name1, name2):
+        """
+        Enhanced matching logic with:
+        - Initial sequence checks
+        - Adaptive thresholding
+        """
+        # Direct match check
+        if name1.lower() == name2.lower():
+            return True
+        
+        # Normalize names
+        norm1 = self.normalize_team_name(name1)
+        norm2 = self.normalize_team_name(name2)
+        
+        # Initial sequence check
+        if self.get_initials(norm1) == self.get_initials(norm2):
+            return True
+        
+        # Whole word check
+        if len(set(norm1.split()) & set(norm2.split())) > 0:
+            return True
+        
+        # Calculate composite score
+        score = self.calculate_similarity(norm1, norm2)
+        
+        # Adaptive threshold adjustment for short names
+        min_length = min(len(norm1), len(norm2))
+        if min_length < 5:
+            threshold = max(self.threshold, 0.85)
         else:
-            words.append(word)
+            threshold = self.threshold
+        
+        return score >= threshold
     
-    # Rebuild string and lowercase
-    normalized = ' '.join(words).lower()
-    
-    # Remove remaining special characters
-    normalized = re.sub(r'[^\w\s]', '', normalized)
-    
-    # Enhanced abbreviation mapping
-    abbreviation_map = {
-        'fc': 'football club',
-        'cf': 'club de futbol',
-        'utd': 'united',
-        'inter': 'internazionale',
-        'man': 'manchester',
-        'spurs': 'tottenham',
-        'atletico': 'atlético',
-        'as': 'associazione sportiva',
-        'afc': 'association football club',
-        'ssc': 'sporting soccer club'
-    }
-    
-    # Replace abbreviations with full forms
-    return ' '.join([abbreviation_map.get(word, word) for word in normalized.split()])
+    def match(self, m1home, m1away, m2home, m2away, m1time, m2time):
+        home = self.match_names(m1home, m2home)
+        away = self.match_names(m1away, m2away)
+        time = m1time == m2time
 
-def get_initials(normalized_name):
-    """Extract initials from normalized name"""
-    return ''.join([word[0] for word in normalized_name.split() if word])
-
-def calculate_similarity(name1, name2):
-    """
-    Enhanced similarity calculation with:
-    - Initial sequence matching
-    - Improved weight distribution
-    """
-    norm1 = normalize_team_name(name1)
-    norm2 = normalize_team_name(name2)
-    
-    # Whole word matches
-    words1 = set(norm1.split())
-    words2 = set(norm2.split())
-    common_words = words1 & words2
-    whole_word_score = len(common_words) / max(len(words1), len(words2))
-    
-    # Initials matching
-    initials1 = get_initials(norm1)
-    initials2 = get_initials(norm2)
-    initials_score = fuzz.ratio(initials1, initials2) / 100
-    
-    # Sequence matching
-    lev_score = fuzz.ratio(norm1, norm2) / 100
-    token_score = fuzz.token_sort_ratio(norm1, norm2) / 100
-    
-    # Weighted scoring (adjust weights as needed)
-    weights = {
-        'whole_word': 0.3,
-        'initials': 0.3,
-        'levenshtein': 0.2,
-        'token': 0.2
-    }
-    
-    return (
-        (weights['whole_word'] * whole_word_score) +
-        (weights['initials'] * initials_score) +
-        (weights['levenshtein'] * lev_score) +
-        (weights['token'] * token_score)
-    )
-
-def team_name_matcher(name1, name2, threshold=0.75):
-    """
-    Enhanced matching logic with:
-    - Initial sequence checks
-    - Adaptive thresholding
-    """
-    # Direct match check
-    if name1.lower() == name2.lower():
-        return True
-    
-    # Normalize names
-    norm1 = normalize_team_name(name1)
-    norm2 = normalize_team_name(name2)
-    
-    # Initial sequence check
-    if get_initials(norm1) == get_initials(norm2):
-        return True
-    
-    # Whole word check
-    if len(set(norm1.split()) & set(norm2.split())) > 0:
-        return True
-    
-    # Calculate composite score
-    score = calculate_similarity(norm1, norm2)
-    
-    # Adaptive threshold adjustment for short names
-    min_length = min(len(norm1), len(norm2))
-    if min_length < 5:
-        threshold = max(threshold, 0.85)
-    
-    return score >= threshold
+        return (home and away) and time
 
 # Enhanced test cases
 test_pairs = [
@@ -291,5 +305,6 @@ test_pairs = [
     ("St. Liege", "Saint Liege")
 ]
 
-for pair in test_pairs:
-    print(f"{pair[0]:<20} vs {pair[1]:<25} → {team_name_matcher(pair[0], pair[1])}")
+# for pair in test_pairs:
+#     matcher = TeamMatcher()
+#     print(f"{pair[0]:<20} vs {pair[1]:<25} → {matcher.match(pair[0], pair[1])}")
