@@ -11,3 +11,4 @@ with open("Bologna_Milan.json", "r", encoding="utf-8") as mapping_file:
         client.close()
 
     save_to_mongodb(odds, 'odds_collection')
+
