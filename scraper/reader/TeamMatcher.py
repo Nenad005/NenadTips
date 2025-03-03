@@ -108,6 +108,19 @@ class TeamMatcher:
         if name1.lower() == name2.lower():
             return True
         
+        name1.replace("U18", "")
+        name2.replace("U18", "")
+        name1.replace("U19", "")
+        name2.replace("U19", "")
+        name1.replace("U20", "")
+        name2.replace("U20", "")
+        name1.replace("U21", "")
+        name2.replace("U21", "")
+        name1.replace("U22", "")
+        name2.replace("U22", "")
+        name1.replace("U23", "")
+        name2.replace("U23", "")
+        
         # Normalize names
         norm1 = self.normalize_team_name(name1)
         norm2 = self.normalize_team_name(name2)
@@ -132,12 +145,11 @@ class TeamMatcher:
         
         return score >= threshold
     
-    def match(self, m1home, m1away, m2home, m2away, m1time, m2time):
+    def match(self, m1home, m1away, m2home, m2away):
         home = self.match_names(m1home, m2home)
         away = self.match_names(m1away, m2away)
-        time = m1time == m2time
 
-        return (home and away) and time
+        return home and away
 
 # Enhanced test cases
 test_pairs = [

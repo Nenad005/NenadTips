@@ -1,0 +1,47 @@
+[
+    [["result", "fh", "home"], ["result", "fh", "away"], ["result", "fh", "x"]],
+    [["result", "sh", "home"], ["result", "sh", "away"], ["result", "sh", "x"]],
+    [["result", "ft", "home"], ["result", "ft", "away"], ["result", "ft", "x"]],
+
+    [["double_chance", "fh", "2x"], ["result", "fh", "home"]],
+    [["double_chance", "fh", "1x"], ["result", "fh", "away"]],
+    [["double_chance", "fh", "12"], ["result", "fh", "x"]],
+
+    [["double_chance", "ft", "2x"], ["result", "ft", "home"]],
+    [["double_chance", "ft", "1x"], ["result", "ft", "away"]],
+    [["double_chance", "ft", "12"], ["result", "ft", "x"]],
+
+    [["double_chance", "fh", "12"], ["double_chance", "fh", "2x"], ["double_chance", "fh", "1x"]],
+    [["double_chance", "ft", "12"], ["double_chance", "ft", "2x"], ["double_chance", "ft", "1x"]],
+
+    [["goals", "fh", "home", "0"], ["goals", "fh", "home", "over_0.5"]],
+    [["goals", "fh", "home", "0-1"], ["goals", "fh", "home", "over_1.5"]],
+    [["goals", "fh", "away", "0"], ["goals", "fh", "away", "over_0.5"]],
+    [["goals", "fh", "away", "0-1"], ["goals", "fh", "away", "over_1.5"]],
+    [["goals", "fh", "total", "0"], ["goals", "fh", "total", "over_0.5"]],
+    [["goals", "fh", "total", "0-1"], ["goals", "fh", "total", "over_1.5"]],
+    [["goals", "fh", "total", "0-2"], ["goals", "fh", "total", "over_2.5"]],
+
+    [["goals", "sh", "home", "0"], ["goals", "sh", "home", "over_0.5"]],
+    [["goals", "sh", "home", "0-1"], ["goals", "sh", "home", "over_1.5"]],
+    [["goals", "sh", "away", "0"], ["goals", "sh", "away", "over_0.5"]],
+    [["goals", "sh", "away", "0-1"], ["goals", "sh", "away", "over_1.5"]],
+    [["goals", "sh", "total", "0"], ["goals", "sh", "total", "over_0.5"]],
+    [["goals", "sh", "total", "0-1"], ["goals", "sh", "total", "over_1.5"]],
+    [["goals", "sh", "total", "0-2"], ["goals", "sh", "total", "over_2.5"]],
+
+    [["goals", "ft", "home", "0"], ["goals", "ft", "home", "over_0.5"]],
+    [["goals", "ft", "home", "0-1"], ["goals", "ft", "home", "over_1.5"]],
+    [["goals", "ft", "home", "0-2"], ["goals", "ft", "home", "over_2.5"]],
+    [["goals", "ft", "home", "0-3"], ["goals", "ft", "home", "over_3.5"]],
+    [["goals", "ft", "away", "0"], ["goals", "ft", "away", "over_0.5"]],
+    [["goals", "ft", "away", "0-1"], ["goals", "ft", "away", "over_1.5"]],
+    [["goals", "ft", "away", "0-2"], ["goals", "ft", "away", "over_2.5"]],
+    [["goals", "ft", "away", "0-3"], ["goals", "ft", "away", "over_3.5"]],
+    [["goals", "ft", "total", "0"], ["goals", "ft", "total", "over_0.5"]],
+    [["goals", "ft", "total", "0-1"], ["goals", "ft", "total", "over_1.5"]],
+    [["goals", "ft", "total", "0-2"], ["goals", "ft", "total", "over_2.5"]],
+    [["goals", "ft", "total", "0-3"], ["goals", "ft", "total", "over_3.5"]],
+    [["goals", "ft", "total", "0-4"], ["goals", "ft", "total", "over_4.5"]],
+    [["goals", "ft", "total", "even"], ["goals", "ft", "total", "odd"]]
+]

@@ -1,0 +1,2702 @@
+{
+    "2025-03-04T00:30:00": [
+        {
+            "id": "67c638c333c24e0f5934cbdb",
+            "home": "Brown Adrogue",
+            "away": "Sportivo Italiano",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638c533c24e0f5934cbdf",
+            "home": "Deportes Rengo",
+            "away": "Provincial Ovalle",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T01:00:00": [
+        {
+            "id": "67c63bb033c24e0f5934d023",
+            "home": "Atletico Tucuman",
+            "away": "Newell'S",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d057",
+            "home": "Manta ",
+            "away": "Delfin",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638c833c24e0f5934cbe3",
+            "home": "Atl. Tucuman",
+            "away": "Newells Old Boys",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638ca33c24e0f5934ccae",
+            "home": "Manta",
+            "away": "Delfin",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T01:10:00": [
+        {
+            "id": "67c63bb033c24e0f5934d027",
+            "home": "All Boys",
+            "away": "Racing Cordoba",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638cc33c24e0f5934ccb0",
+            "home": "All Boys",
+            "away": "Racing Cordoba",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T01:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d114",
+            "home": "Independiente Medelin",
+            "away": "Deportivo Pasto",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638ce33c24e0f5934cce7",
+            "home": "Ind. Medellin",
+            "away": "Dep. Pasto",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T02:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d11a",
+            "home": "Sporting San Jose",
+            "away": "Guanacasteca",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d11e",
+            "home": "Escorpiones",
+            "away": "Cariari Pococi",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d158",
+            "home": "Atlas W",
+            "away": "Pumas Unam W",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d15a",
+            "home": "Tigres Uanl W",
+            "away": "Guadalajara W",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638cf33c24e0f5934ccee",
+            "home": "Sporting San Jose",
+            "away": "Guanacasteca",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638d033c24e0f5934ccf1",
+            "home": "Escorpiones",
+            "away": "Cariari Pococi",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638d133c24e0f5934ccf3",
+            "home": "Atlas Wom.",
+            "away": "U.N.A.M.- Pumas Wom.",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638d233c24e0f5934ccf8",
+            "home": "U.A.N.L.- Tigres Wom.",
+            "away": "Guadalajara Chivas Wom.",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T12:00:00": [
+        {
+            "id": "67c638d433c24e0f5934ccfb",
+            "home": "Leixoes U23",
+            "away": "Santa Clara U23",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638d533c24e0f5934ccfd",
+            "home": "Rio Ave U23",
+            "away": "SC Farense U23",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T13:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d0ea",
+            "home": "Ethio Electric",
+            "away": "Ethiopia Bunna",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0ec",
+            "home": "Ethio Electric",
+            "away": "Ethiopia Bunna",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d148",
+            "home": "Shanghai Port",
+            "away": "Yokohama F.Marinos",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638d633c24e0f5934ccff",
+            "home": "Shanghai Port FC",
+            "away": "Yokohama F. Marinos",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638d833c24e0f5934cd02",
+            "home": "Social Atletico Television Wom.",
+            "away": "Belgrano Wom.",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638d833c24e0f5934cd04",
+            "home": "Ethio Electric",
+            "away": "Ethiopia Bunna",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T13:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d0f6",
+            "home": "Malut United",
+            "away": "Arema",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638d933c24e0f5934cd06",
+            "home": "Malut United",
+            "away": "Arema FC",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T14:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d0d0",
+            "home": "Charlton M21",
+            "away": "Bristol City M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0d2",
+            "home": "Ipswich M21",
+            "away": "QPR M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0d4",
+            "home": "Wigan M21",
+            "away": "Hull M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0d6",
+            "home": "Charlton M21",
+            "away": "Bristol City M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0d8",
+            "home": "Ipswich M21",
+            "away": "QPR M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d186",
+            "home": "Manisa BB",
+            "away": "Igdir B.",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638db33c24e0f5934cd08",
+            "home": "Burnley U21",
+            "away": "Sheffield Wed U21",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638dc33c24e0f5934cd0c",
+            "home": "Charlton U21",
+            "away": "Bristol City U21",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638dd33c24e0f5934cd0f",
+            "home": "Ipswich U21",
+            "away": "QPR U21",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638df33c24e0f5934cd11",
+            "home": "Wigan U21",
+            "away": "Hull U21",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638e033c24e0f5934cd13",
+            "home": "Manisa",
+            "away": "Igdir",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T14:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d029",
+            "home": "Turan Tovuz",
+            "away": "Zira",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d047",
+            "home": "CSKA 1948 II",
+            "away": "Minyor Pernik",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d049",
+            "home": "Dobrudzha",
+            "away": "Ludogorets II",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0f8",
+            "home": "Persija",
+            "away": "PSIS Semarang",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638e133c24e0f5934cd16",
+            "home": "Turan",
+            "away": "Zira",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638e233c24e0f5934cd18",
+            "home": "CSKA 1948 Sofia II",
+            "away": "Minyor Pernik",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638e433c24e0f5934cd1a",
+            "home": "Dobrudzha",
+            "away": "Ludogorets II",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638e533c24e0f5934cd1c",
+            "home": "Persija Jakarta",
+            "away": "PSIS Semarang",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T15:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d0da",
+            "home": "Barnsley M21",
+            "away": "Coventry M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0dc",
+            "home": "Cardiff M21",
+            "away": "Millwall M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0de",
+            "home": "Sheffield Utd M21",
+            "away": "Birmingham M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0e0",
+            "home": "Barnsley M21",
+            "away": "Coventry M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0e2",
+            "home": "Sheffield Utd M21",
+            "away": "Birmingham M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0e4",
+            "home": "Cardiff M21",
+            "away": "Millwall M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0f0",
+            "home": "Goa",
+            "away": "Mohammedan",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d14a",
+            "home": "Buriram United",
+            "away": "Johor DT",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638e633c24e0f5934cd20",
+            "home": "Buriram",
+            "away": "Johor DT",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638e733c24e0f5934cd22",
+            "home": "Barnsley U21",
+            "away": "Coventry U21",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638e833c24e0f5934cd25",
+            "home": "Cardiff U21",
+            "away": "Millwall U21",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638ea33c24e0f5934cd27",
+            "home": "Sheffield Utd U21",
+            "away": "Birmingham U21",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638ec33c24e0f5934cd2a",
+            "home": "Goa",
+            "away": "Mohammedan SC",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T16:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d164",
+            "home": "Vizela M23",
+            "away": "Estrela Amadora M23",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d166",
+            "home": "Vizela M23",
+            "away": "Estrela Amadora M23",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d168",
+            "home": "Mafra M23",
+            "away": "Braga M23",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d16a",
+            "home": "Academico Viseu M23",
+            "away": "Portimonense M23",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d16c",
+            "home": "Mafra M23",
+            "away": "Braga M23",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d16e",
+            "home": "Academico Viseu M23",
+            "away": "Portimonense M23",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638ed33c24e0f5934cd2c",
+            "home": "Vizela U23",
+            "away": "Estrela U23",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638ee33c24e0f5934cd2e",
+            "home": "Academico Viseu U23",
+            "away": "Portimonense U23",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638f033c24e0f5934cd31",
+            "home": "Mafra U23",
+            "away": "Braga U23",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T16:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d02b",
+            "home": "Sabah",
+            "away": "Araz",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638f133c24e0f5934cd34",
+            "home": "Sabah Baku",
+            "away": "Araz",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T17:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d0ee",
+            "home": "Istra 1961",
+            "away": "Lok.Zagreb",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638f233c24e0f5934cd37",
+            "home": "Pakhtakor Tashkent",
+            "away": "Al Hilal",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638f333c24e0f5934cd39",
+            "home": "Istra 1961",
+            "away": "Lokomotiva Zagreb",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T17:30:00": [
+        {
+            "id": "67c638f433c24e0f5934cd3b",
+            "home": "Maribor",
+            "away": "Aluminij",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T18:00:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d1a4",
+            "home": "Sigma O.",
+            "away": "Kromeriz",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638f633c24e0f5934cd3e",
+            "home": "Sigma Olomouc",
+            "away": "Kromeriz",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T18:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d106",
+            "home": "Marumo Gallants",
+            "away": "Stellenbosch",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d108",
+            "home": "Kaizer Chiefs",
+            "away": "Magesi",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d188",
+            "home": "Amedspor",
+            "away": "Genclerbirligi",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638f733c24e0f5934cd40",
+            "home": "Kaizer Chiefs",
+            "away": "Magesi",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638f833c24e0f5934cd42",
+            "home": "Marumo Gallants",
+            "away": "Stellenbosch",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c638fa33c24e0f5934cd45",
+            "home": "Amedspor",
+            "away": "Genclerbirligi",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T18:45:00": [
+        {
+            "id": "67c63bb033c24e0f5934cff5",
+            "home": "Club Brugge",
+            "away": "Aston Villa",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638fb33c24e0f5934cd48",
+            "home": "Club Brugge",
+            "away": "Aston Villa",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T19:00:00": [
+        {
+            "id": "67c638fc33c24e0f5934cd4b",
+            "home": "Al Rayyan",
+            "away": "Al Ahli Jeddah",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T19:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d02d",
+            "home": "Bahrein Club",
+            "away": "AL Ahli Manama",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d02f",
+            "home": "Al Shabab Manama",
+            "away": "Al Muharraq",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d031",
+            "home": "A'Ali",
+            "away": "Sitra",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d033",
+            "home": "Bahrein Club",
+            "away": "AL Ahli Manama",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d035",
+            "home": "A'Ali",
+            "away": "Sitra",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638fe33c24e0f5934cd4d",
+            "home": "Al Shabab Manama",
+            "away": "Al-Muharraq",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T20:00:00": [
+        {
+            "id": "67c63bb033c24e0f5934d04b",
+            "home": "Zed",
+            "away": "SC Ismaily",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d04d",
+            "home": "Enppi",
+            "away": "Zamalek",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d04f",
+            "home": "Al Ittihad",
+            "away": "Smouha",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0e6",
+            "home": "Burnley M21",
+            "away": "Sheffield W.M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0e8",
+            "home": "Burnley M21",
+            "away": "Sheffield W.M21",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d104",
+            "home": "Shabab Al Ordon",
+            "away": "Al Ahli Aman",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d170",
+            "home": "Al Jabalain",
+            "away": "Jeddah",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d172",
+            "home": "Al Adalh",
+            "away": "Al Jubail",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d174",
+            "home": "Abha",
+            "away": "Al Hazm",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d176",
+            "home": "Al Bukayriyah",
+            "away": "Ohod",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d178",
+            "home": "Al Jabalain",
+            "away": "Jeddah",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d17c",
+            "home": "Al Adalh",
+            "away": "Al Jubail",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c638ff33c24e0f5934cd50",
+            "home": "Al Ittihad Al Sakandary",
+            "away": "Smouha",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390033c24e0f5934cd52",
+            "home": "ZED",
+            "away": "El Ismaily",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390233c24e0f5934cd54",
+            "home": "Enppi",
+            "away": "Zamalek",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390333c24e0f5934cd56",
+            "home": "Abha",
+            "away": "Al-Hazm",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390433c24e0f5934cd59",
+            "home": "Al Adalh",
+            "away": "Al Jubail",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390533c24e0f5934cd5d",
+            "home": "Al Jabalain",
+            "away": "Jeddah",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390733c24e0f5934cd5f",
+            "home": "Al Bukayriyah",
+            "away": "Ohod",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T20:45:00": [
+        {
+            "id": "67c63bb033c24e0f5934d015",
+            "home": "Cardiff",
+            "away": "Burnley",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d017",
+            "home": "Hull",
+            "away": "Plymouth",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d019",
+            "home": "Preston",
+            "away": "Swansea",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d01b",
+            "home": "Millwall",
+            "away": "Bristol City",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d061",
+            "home": "Lincoln City",
+            "away": "Crawley Town",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d063",
+            "home": "Shrewsbury",
+            "away": "Bristol Rovers",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d065",
+            "home": "Rotherham",
+            "away": "Leyton",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d067",
+            "home": "Northampton",
+            "away": "Stockport",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d069",
+            "home": "Mansfield",
+            "away": "Wigan",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d06b",
+            "home": "Charlton",
+            "away": "Barnsley",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d06d",
+            "home": "Blackpool",
+            "away": "Peterborough",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d06f",
+            "home": "Huddersfield",
+            "away": "Wrexham",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d071",
+            "home": "Bolton",
+            "away": "Birmingham",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d073",
+            "home": "Cambridge",
+            "away": "Stevenage",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d079",
+            "home": "Newport",
+            "away": "Gillingham",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d07b",
+            "home": "Bromley",
+            "away": "Doncaster",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d07d",
+            "home": "Notts County",
+            "away": "Barrow",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d07f",
+            "home": "Colchester",
+            "away": "Chesterfield",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d081",
+            "home": "Morecambe",
+            "away": "Wimbledon",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d083",
+            "home": "Crewe",
+            "away": "Fleetwood",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d085",
+            "home": "Grimsby",
+            "away": "Tranmere",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d087",
+            "home": "Swindon",
+            "away": "Salford City",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d089",
+            "home": "Port Vale",
+            "away": "Harrogate T.",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d08b",
+            "home": "Carlisle",
+            "away": "Walsall",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d08d",
+            "home": "Accrington",
+            "away": "Milton Keynes Dons",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d08f",
+            "home": "Bradford",
+            "away": "Cheltenham",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d091",
+            "home": "York",
+            "away": "Altrincham",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d093",
+            "home": "Tamworth",
+            "away": "Wealdstone",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d095",
+            "home": "Southend",
+            "away": "Woking",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d097",
+            "home": "Fylde",
+            "away": "Hartlepool",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d099",
+            "home": "Eastleigh",
+            "away": "Ebbsfleet",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d09b",
+            "home": "Halifax",
+            "away": "Forest Green",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d09d",
+            "home": "Solihull",
+            "away": "Sutton United",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d09f",
+            "home": "Barnet",
+            "away": "Yeovil",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d0a1",
+            "home": "Aldershot",
+            "away": "Dag & Red",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d0a3",
+            "home": "Rochdale",
+            "away": "Gateshead",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d0a5",
+            "home": "Maidenhead",
+            "away": "Braintree",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d0a7",
+            "home": "Boston United",
+            "away": "Oldham",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d0a9",
+            "home": "Truro City",
+            "away": "Boreham Wood",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d0ab",
+            "home": "Worthing",
+            "away": "Bath City",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0b2",
+            "home": "Chippenham",
+            "away": "Torquay",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0b4",
+            "home": "Farnborough",
+            "away": "Hornchurch",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0b6",
+            "home": "Spennymoor",
+            "away": "Darlington",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0b8",
+            "home": "Radcliffe Borough",
+            "away": "South Shields",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0ba",
+            "home": "Southport",
+            "away": "Leamington",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0bc",
+            "home": "Kettering",
+            "away": "Alvechurch",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0be",
+            "home": "Stamford",
+            "away": "Redditch",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0c0",
+            "home": "Chatham",
+            "away": "Hastings Utd",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0c2",
+            "home": "Cray Valley",
+            "away": "Hendon",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0c4",
+            "home": "Chatham",
+            "away": "Hastings Utd",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0c6",
+            "home": "Tiverton",
+            "away": "Havant&Wat.",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0c8",
+            "home": "Hanwell Town",
+            "away": "Dorchester",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0ca",
+            "home": "Chertsey Town",
+            "away": "Wimborne",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0cc",
+            "home": "Supermarine",
+            "away": "Walton&Hersham",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0ce",
+            "home": "Gainsborough",
+            "away": "Ilkeston",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d17e",
+            "home": "Loughgall",
+            "away": "Glenavon",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d180",
+            "home": "Carrick Utd",
+            "away": "Larne",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d182",
+            "home": "Glentoran",
+            "away": "Ballymena Utd",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d1a8",
+            "home": "Queen's Park",
+            "away": "Ayr Utd.",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d1aa",
+            "home": "Airdrie",
+            "away": "Falkirk",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d1ae",
+            "home": "Dumbarton",
+            "away": "Arbroath",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d1b0",
+            "home": "Stranraer",
+            "away": "Forfar",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6390833c24e0f5934cd61",
+            "home": "Cardiff",
+            "away": "Burnley",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390a33c24e0f5934cd64",
+            "home": "Hull",
+            "away": "Plymouth",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390b33c24e0f5934cd66",
+            "home": "Millwall",
+            "away": "Bristol City",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390c33c24e0f5934cd68",
+            "home": "Preston",
+            "away": "Swansea",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390e33c24e0f5934cd6b",
+            "home": "Blackpool",
+            "away": "Peterborough",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6390f33c24e0f5934cd6e",
+            "home": "Bolton",
+            "away": "Birmingham",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391133c24e0f5934cd71",
+            "home": "Cambridge Utd",
+            "away": "Stevenage",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391233c24e0f5934cd73",
+            "home": "Charlton",
+            "away": "Barnsley",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391333c24e0f5934cd76",
+            "home": "Huddersfield",
+            "away": "Wrexham",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391533c24e0f5934cd78",
+            "home": "Lincoln",
+            "away": "Crawley",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391733c24e0f5934cd7a",
+            "home": "Mansfield",
+            "away": "Wigan",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391833c24e0f5934cd7d",
+            "home": "Northampton",
+            "away": "Stockport County",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391933c24e0f5934cd7f",
+            "home": "Rotherham",
+            "away": "Leyton Orient",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391a33c24e0f5934cd83",
+            "home": "Shrewsbury",
+            "away": "Bristol Rovers",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391c33c24e0f5934cd85",
+            "home": "Accrington",
+            "away": "MK Dons",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391d33c24e0f5934cd88",
+            "home": "Bradford City",
+            "away": "Cheltenham",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6391e33c24e0f5934cd8a",
+            "home": "Bromley",
+            "away": "Doncaster",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392033c24e0f5934cd8c",
+            "home": "Carlisle",
+            "away": "Walsall",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392133c24e0f5934cd8e",
+            "home": "Colchester",
+            "away": "Chesterfield",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392233c24e0f5934cd91",
+            "home": "Crewe",
+            "away": "Fleetwood",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392433c24e0f5934cd95",
+            "home": "Grimsby",
+            "away": "Tranmere",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392533c24e0f5934cd97",
+            "home": "Morecambe",
+            "away": "AFC Wimbledon",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392633c24e0f5934cd99",
+            "home": "Newport",
+            "away": "Gillingham",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392833c24e0f5934cd9c",
+            "home": "Notts County",
+            "away": "Barrow",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392933c24e0f5934cd9e",
+            "home": "Port Vale",
+            "away": "Harrogate Town",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392a33c24e0f5934cda0",
+            "home": "Swindon Town",
+            "away": "Salford",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392b33c24e0f5934cda3",
+            "home": "Aldershot",
+            "away": "Dag & Red",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392d33c24e0f5934cda5",
+            "home": "Barnet",
+            "away": "Yeovil",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6392e33c24e0f5934cda9",
+            "home": "Boston United",
+            "away": "Oldham",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393033c24e0f5934cdab",
+            "home": "Eastleigh",
+            "away": "Ebbsfleet",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393133c24e0f5934cdae",
+            "home": "Halifax",
+            "away": "Forest Green",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393333c24e0f5934cdb0",
+            "home": "Maidenhead",
+            "away": "Braintree",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393433c24e0f5934cdb2",
+            "home": "Solihull Moors",
+            "away": "Sutton",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393633c24e0f5934cdb5",
+            "home": "Southend",
+            "away": "Woking",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393733c24e0f5934cdb7",
+            "home": "Tamworth",
+            "away": "Wealdstone",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393833c24e0f5934cdbb",
+            "home": "York City",
+            "away": "Altrincham",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393a33c24e0f5934cdbd",
+            "home": "AFC Fylde",
+            "away": "Hartlepool",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393b33c24e0f5934cdc0",
+            "home": "Rochdale",
+            "away": "Gateshead",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393c33c24e0f5934cdc2",
+            "home": "Chippenham Town",
+            "away": "Torquay United",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393d33c24e0f5934cdc4",
+            "home": "Farnborough",
+            "away": "Hornchurch",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6393f33c24e0f5934cdc6",
+            "home": "Truro",
+            "away": "Boreham Wood",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394033c24e0f5934cdc9",
+            "home": "Worthing",
+            "away": "Bath",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394133c24e0f5934cdcb",
+            "home": "Radcliffe",
+            "away": "South Shields",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394233c24e0f5934cdcf",
+            "home": "Southport",
+            "away": "Leamington",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394433c24e0f5934cdd1",
+            "home": "Spennymoor",
+            "away": "Darlington",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394533c24e0f5934cdd4",
+            "home": "Cray Valley",
+            "away": "Hendon",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394633c24e0f5934cdd6",
+            "home": "Kettering",
+            "away": "Alvechurch",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394733c24e0f5934cdd8",
+            "home": "Stamford",
+            "away": "Redditch",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394833c24e0f5934cdda",
+            "home": "Chertsey Town",
+            "away": "Wimborne",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394a33c24e0f5934cddd",
+            "home": "Hanwell Town",
+            "away": "Dorchester",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394b33c24e0f5934cddf",
+            "home": "Swindon Supermarine",
+            "away": "Walton & Hersham",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394c33c24e0f5934cde2",
+            "home": "Tiverton",
+            "away": "Havant & W",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394d33c24e0f5934cde5",
+            "home": "Gainsborough",
+            "away": "Ilkeston",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6394e33c24e0f5934cde7",
+            "home": "Carrick Rangers",
+            "away": "Larne",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395033c24e0f5934cdea",
+            "home": "Glentoran",
+            "away": "Ballymena",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395133c24e0f5934cdec",
+            "home": "Loughgall",
+            "away": "Glenavon",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395233c24e0f5934cdee",
+            "home": "Airdrieonians",
+            "away": "Falkirk",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395433c24e0f5934cdf1",
+            "home": "Queen's Park",
+            "away": "Ayr",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395533c24e0f5934cdf3",
+            "home": "Dumbarton",
+            "away": "Arbroath",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395633c24e0f5934cdf6",
+            "home": "Stranraer",
+            "away": "Forfar",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T21:00:00": [
+        {
+            "id": "67c63bb033c24e0f5934cff7",
+            "home": "PSV",
+            "away": "Arsenal",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934cff9",
+            "home": "Real Madrid",
+            "away": "Atl.Madrid",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934cffb",
+            "home": "Dortmund",
+            "away": "Lille",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d025",
+            "home": "San Lorenzo W",
+            "away": "Boca Juniors W",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d075",
+            "home": "Wycombe",
+            "away": "Burton",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d077",
+            "home": "Reading",
+            "away": "Exeter",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d1a0",
+            "home": "Llay Welfare",
+            "away": "Airbus",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d1a2",
+            "home": "Llay Welfare",
+            "away": "Airbus",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6395833c24e0f5934cdf9",
+            "home": "Dortmund",
+            "away": "Lille",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395a33c24e0f5934cdfc",
+            "home": "PSV",
+            "away": "Arsenal",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395b33c24e0f5934cdfe",
+            "home": "Real Madrid",
+            "away": "Atl. Madrid",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395c33c24e0f5934ce00",
+            "home": "San Lorenzo Wom.",
+            "away": "Boca Juniors Wom.",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395e33c24e0f5934ce03",
+            "home": "Reading",
+            "away": "Exeter",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6395f33c24e0f5934ce05",
+            "home": "Wycombe",
+            "away": "Burton",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-04T23:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d140",
+            "home": "Deportes Iquique",
+            "away": "Alianza Lima",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6396133c24e0f5934ce08",
+            "home": "S. Morning",
+            "away": "Recoleta",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6396233c24e0f5934ce0b",
+            "home": "Deportes Iquique",
+            "away": "Alianza Lima",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T00:00:00": [
+        {
+            "id": "67c6396333c24e0f5934ce0e",
+            "home": "Toluca Wom.",
+            "away": "Juarez Wom.",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T00:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d037",
+            "home": "Santa Catarina",
+            "away": "Marcílio Dias",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d14c",
+            "home": "Cincinnati",
+            "away": "Tigres Uanl",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6396533c24e0f5934ce10",
+            "home": "Santa Catarina",
+            "away": "Marcilio Dias",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6396633c24e0f5934ce12",
+            "home": "FC Cincinnati",
+            "away": "U.A.N.L.- Tigres",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6396733c24e0f5934ce14",
+            "home": "Llaneros",
+            "away": "La Equidad",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T01:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d03b",
+            "home": "Aparecidense",
+            "away": "Cascavel",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d116",
+            "home": "Llaneros",
+            "away": "CD Equidad",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d120",
+            "home": "Sportivo Luqueno",
+            "away": "Sportivo Ameliano",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d122",
+            "home": "Universitad Catolica",
+            "away": "Palestino",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d124",
+            "home": "Universitario Vinto",
+            "away": "Nacional Potosi",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6396833c24e0f5934ce17",
+            "home": "Aparecidense",
+            "away": "Cascavel",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6396a33c24e0f5934ce1a",
+            "home": "Universitario de Vinto",
+            "away": "Nacional Potosi",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6396b33c24e0f5934ce1c",
+            "home": "Sportivo Luqueno",
+            "away": "Ameliano",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6396c33c24e0f5934ce1f",
+            "home": "U. Catolica",
+            "away": "Palestino",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T02:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d15c",
+            "home": "Queretaro W",
+            "away": "Santos Laguna W",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6396d33c24e0f5934ce22",
+            "home": "Queretaro Wom.",
+            "away": "Santos Laguna Wom.",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T02:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d118",
+            "home": "Fortaleza",
+            "away": "Atletico Nacional",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d14e",
+            "home": "Pumas Unam",
+            "away": "Alajuelense",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6396f33c24e0f5934ce24",
+            "home": "Pumas UNAM",
+            "away": "Alajuelense",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6397033c24e0f5934ce26",
+            "home": "Fortaleza CEIF",
+            "away": "Atl. Nacional",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T03:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d126",
+            "home": "ADT Tarma",
+            "away": "Cienciano",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6397133c24e0f5934ce29",
+            "home": "AD Tarma",
+            "away": "Cienciano",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T04:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d150",
+            "home": "Los Angeles",
+            "away": "Columbus",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d152",
+            "home": "Vancouver",
+            "away": "Monterrey",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6397333c24e0f5934ce2b",
+            "home": "Los Angeles FC",
+            "away": "Columbus Crew",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T11:00:00": [
+        {
+            "id": "67c6397433c24e0f5934ce2e",
+            "home": "Vissel Kobe",
+            "away": "Gwangju FC",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T11:30:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d18a",
+            "home": "Keciorengucu",
+            "away": "Esenler",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6397533c24e0f5934ce31",
+            "home": "Keciorengucu",
+            "away": "Erokspor",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T13:00:00": [
+        {
+            "id": "67c6397633c24e0f5934ce33",
+            "home": "Shanghai Shenhua",
+            "away": "Kawasaki Frontale",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T14:00:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d18c",
+            "home": "Corum Belediyespor",
+            "away": "Boluspor",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d18e",
+            "home": "Sanliurfaspor",
+            "away": "Adanaspor",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6397833c24e0f5934ce36",
+            "home": "Corum",
+            "away": "Boluspor",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6397933c24e0f5934ce38",
+            "home": "Sanliurfaspor",
+            "away": "Adanaspor",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T14:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d0fa",
+            "home": "Dewa United",
+            "away": "Semen Padang",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d0fc",
+            "home": "Persib",
+            "away": "Persik Kediri",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d102",
+            "home": "KR Reykjavik",
+            "away": "Ibv",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6397a33c24e0f5934ce3a",
+            "home": "Dewa United",
+            "away": "Semen Padang",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6397b33c24e0f5934ce3d",
+            "home": "Persib Bandung",
+            "away": "Persik Kediri",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T15:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d0f2",
+            "home": "Jamshedpur",
+            "away": "Odisha",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d184",
+            "home": "Primorje",
+            "away": "Koper",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6397d33c24e0f5934ce3f",
+            "home": "Jamshedpur",
+            "away": "Odisha FC",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6397e33c24e0f5934ce42",
+            "home": "Primorje",
+            "away": "Koper",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T18:00:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d1a6",
+            "home": "Pardubice",
+            "away": "Ostrava",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6397f33c24e0f5934ce45",
+            "home": "Pardubice",
+            "away": "Ostrava",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T18:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d10a",
+            "home": "Cape Town City FC",
+            "away": "Galaxy",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d10c",
+            "home": "Chippa Utd",
+            "away": "Orlando Pirates",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d10e",
+            "home": "Supersport",
+            "away": "Amazulu",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d110",
+            "home": "Richards Bay",
+            "away": "Sekhukhune",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d112",
+            "home": "Golden Arrows",
+            "away": "Mamelodi",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d190",
+            "home": "Karagumruk",
+            "away": "Bandirmaspor",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6398133c24e0f5934ce47",
+            "home": "Cape Town City",
+            "away": "TS Galaxy",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6398233c24e0f5934ce4a",
+            "home": "Chippa Utd.",
+            "away": "Orlando Pirates",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6398333c24e0f5934ce4c",
+            "home": "Golden Arrows",
+            "away": "Mamelodi Sundowns",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6398433c24e0f5934ce4e",
+            "home": "Richards Bay",
+            "away": "Sekhukhune",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6398533c24e0f5934ce51",
+            "home": "Supersport Utd",
+            "away": "AmaZulu",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6398733c24e0f5934ce53",
+            "home": "Karagumruk",
+            "away": "Bandirmaspor",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T18:45:00": [
+        {
+            "id": "67c63bb033c24e0f5934cffd",
+            "home": "Feyenoord",
+            "away": "Inter",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6398833c24e0f5934ce56",
+            "home": "Feyenoord",
+            "away": "Inter",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T20:00:00": [
+        {
+            "id": "67c63bb033c24e0f5934d051",
+            "home": "Petrojet",
+            "away": "Ghazi Al Mehalla",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d053",
+            "home": "Pyramids",
+            "away": "Ceramica Cleopatra",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d055",
+            "home": "Al Ahly Cairo",
+            "away": "El Geish",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d059",
+            "home": "West Ham W",
+            "away": "Man.City W",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d05b",
+            "home": "West Ham W",
+            "away": "Man.City W",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d1b2",
+            "home": "Ferrol",
+            "away": "Burgos",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6398933c24e0f5934ce58",
+            "home": "Petrojet",
+            "away": "Ghazl El Mahallah",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6398b33c24e0f5934ce5b",
+            "home": "Al Ahly Cairo",
+            "away": "El Gaish",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6398c33c24e0f5934ce5e",
+            "home": "Pyramids",
+            "away": "Ceramica Cleopatra",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6398d33c24e0f5934ce60",
+            "home": "Ferrol",
+            "away": "Burgos",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T20:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d05d",
+            "home": "Chelsea W",
+            "away": "Leicester W",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d05f",
+            "home": "Chelsea W",
+            "away": "Leicester W",
+            "bookmaker": "Mozzart"
+        }
+    ],
+    "2025-03-05T20:45:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d1ac",
+            "home": "Livingston",
+            "away": "Raith",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6398f33c24e0f5934ce62",
+            "home": "Livingston",
+            "away": "Raith",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T21:00:00": [
+        {
+            "id": "67c63bb033c24e0f5934cfff",
+            "home": "PSG",
+            "away": "Liverpool",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d001",
+            "home": "Bayern",
+            "away": "Leverkusen",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d003",
+            "home": "Benfica",
+            "away": "Barcelona",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6399133c24e0f5934ce65",
+            "home": "Bayern Munich",
+            "away": "Bayer Leverkusen",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6399233c24e0f5934ce6f",
+            "home": "Benfica",
+            "away": "Barcelona",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6399433c24e0f5934ce7a",
+            "home": "Paris SG",
+            "away": "Liverpool",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T23:00:00": [
+        {
+            "id": "67c63bb033c24e0f5934d03d",
+            "home": "Caxias RS",
+            "away": "Fluminense",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d128",
+            "home": "Union Espanola",
+            "away": "Everton CD",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d12a",
+            "home": "Racing M.",
+            "away": "Wanderers ",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d12c",
+            "home": "Aurora ",
+            "away": "San Jose Bolivar",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d12e",
+            "home": "Puerto Cabello",
+            "away": "Metropolitanos",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d142",
+            "home": "Melgar",
+            "away": "Cerro Porteno",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6399633c24e0f5934ce80",
+            "home": "SER Caxias",
+            "away": "Fluminense",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6399733c24e0f5934ce82",
+            "home": "Club Aurora",
+            "away": "GV San Jose",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6399933c24e0f5934ce84",
+            "home": "Puerto Cabello",
+            "away": "Metropolitanos",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6399a33c24e0f5934ce87",
+            "home": "Racing Montevideo",
+            "away": "Montevideo Wanderers",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6399b33c24e0f5934ce89",
+            "home": "Union Espanola",
+            "away": "Everton de Vina",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c6399d33c24e0f5934ce8c",
+            "home": "FBC Melgar",
+            "away": "Cerro Porteno",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-05T23:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d03f",
+            "home": "Atletico Mineiro",
+            "away": "Manaus",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c6399e33c24e0f5934ce8e",
+            "home": "Atletico-MG",
+            "away": "Manaus",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T00:00:00": [
+        {
+            "id": "67c6399f33c24e0f5934ce92",
+            "home": "River Plate",
+            "away": "Talleres Cordoba",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T01:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d039",
+            "home": "Avai",
+            "away": "Figueirense ",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d041",
+            "home": "Nova Iguacu",
+            "away": "Vasco da Gama ",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d130",
+            "home": "Once Caldas",
+            "away": "Millionarios",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d144",
+            "home": "B.Guayaquil",
+            "away": "Corinthians ",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639a033c24e0f5934ce94",
+            "home": "Nova Iguacu",
+            "away": "Vasco",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639a233c24e0f5934ce96",
+            "home": "CD Once Caldas",
+            "away": "Millonarios",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639a333c24e0f5934ce98",
+            "home": "Barcelona SC",
+            "away": "Corinthians",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T02:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d154",
+            "home": "Guadalajara",
+            "away": "America",
+            "bookmaker": "Mozzart"
+        }
+    ],
+    "2025-03-06T03:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d11c",
+            "home": "Puntarenas",
+            "away": "Cartagines",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d132",
+            "home": "Mushuc Runa",
+            "away": "Orense SC",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d15e",
+            "home": "Venados",
+            "away": "Tapatio",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d160",
+            "home": "Venados",
+            "away": "Tapatio",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639a533c24e0f5934ce9b",
+            "home": "Mushuc Runa",
+            "away": "Orense",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639a633c24e0f5934ce9e",
+            "home": "Venados",
+            "away": "Tapatio",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T04:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d156",
+            "home": "Seattle",
+            "away": "Cruz Azul",
+            "bookmaker": "Mozzart"
+        }
+    ],
+    "2025-03-06T11:30:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d192",
+            "home": "Erzurum",
+            "away": "Pendikspor",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639a733c24e0f5934cea0",
+            "home": "Erzurumspor",
+            "away": "Pendikspor",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T12:00:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d198",
+            "home": "Vorskla Poltava",
+            "away": "Karpaty",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d19a",
+            "home": "Polissya Zhytomyr",
+            "away": "Chernomorets Odessa",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639a833c24e0f5934cea3",
+            "home": "FC Polissya Zhytomyr",
+            "away": "Ch. Odessa",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639aa33c24e0f5934cea6",
+            "home": "Vorskla Poltava",
+            "away": "Karpaty Lviv",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T14:00:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d194",
+            "home": "Istanbulspor",
+            "away": "Sakaryaspor",
+            "bookmaker": "Mozzart"
+        }
+    ],
+    "2025-03-06T14:30:00": [
+        {
+            "id": "67c63bb633c24e0f5934d0fe",
+            "home": "PSBS Biak",
+            "away": "Pusamania Borneo",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d100",
+            "home": "Persis Solo",
+            "away": "Bali Utd",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bbb33c24e0f5934d19c",
+            "home": "Cherkasy LNZ",
+            "away": "Dynamo Kyiv",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639ab33c24e0f5934ceab",
+            "home": "PSBS Biak Numfor",
+            "away": "Borneo",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639ac33c24e0f5934cead",
+            "home": "Persis Solo",
+            "away": "Bali United",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639ae33c24e0f5934ceb0",
+            "home": "LNZ Cherkasy",
+            "away": "Dynamo Kyiv",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T15:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d0f4",
+            "home": "Hyderabad",
+            "away": "Punjab",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639af33c24e0f5934ceb2",
+            "home": "Hyderabad",
+            "away": "Punjab",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T17:00:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d19e",
+            "home": "Shakhtar",
+            "away": "Kryvbas",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639b033c24e0f5934ceb5",
+            "home": "Shakhtar Donetsk",
+            "away": "Kryvbas",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T18:30:00": [
+        {
+            "id": "67c63bbb33c24e0f5934d196",
+            "home": "Umraniyespor",
+            "away": "Kocaelispor",
+            "bookmaker": "Mozzart"
+        }
+    ],
+    "2025-03-06T18:45:00": [
+        {
+            "id": "67c63bb033c24e0f5934cfe5",
+            "home": "Molde",
+            "away": "Legia",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934cfe7",
+            "home": "Panathinaikos",
+            "away": "Fiorentina",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934cfe9",
+            "home": "Copenhagen",
+            "away": "Chelsea",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934cfeb",
+            "home": "Betis",
+            "away": "Guimaraes",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d005",
+            "home": "FCSB",
+            "away": "Olympique Lyon",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d007",
+            "home": "Fenerbahce",
+            "away": "Rangers",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d009",
+            "home": "AZ Alkmaar",
+            "away": "Tottenham",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d00b",
+            "home": "Sociedad",
+            "away": "Man.Utd.",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639b133c24e0f5934ceb7",
+            "home": "AZ Alkmaar",
+            "away": "Tottenham",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639b333c24e0f5934cebb",
+            "home": "FCSB",
+            "away": "Lyon",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639b433c24e0f5934cebd",
+            "home": "Fenerbahce",
+            "away": "Rangers",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639b633c24e0f5934cebf",
+            "home": "Real Sociedad",
+            "away": "Manchester Utd",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639b733c24e0f5934cec2",
+            "home": "Betis",
+            "away": "Vitoria Guimaraes",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639b933c24e0f5934cec4",
+            "home": "FC Copenhagen",
+            "away": "Chelsea",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639ba33c24e0f5934cec7",
+            "home": "Molde",
+            "away": "Legia",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639bc33c24e0f5934cec9",
+            "home": "Panathinaikos",
+            "away": "Fiorentina",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T20:00:00": [
+        {
+            "id": "67c63bb033c24e0f5934d01d",
+            "home": "Al Qadisiyah Khubar",
+            "away": "Al Itihad J.",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d01f",
+            "home": "Al Kholood",
+            "away": "Al Fateh",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639bd33c24e0f5934cecd",
+            "home": "Al Kholood",
+            "away": "Al-Fateh",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639bf33c24e0f5934cecf",
+            "home": "Al Qadisiya",
+            "away": "Al Ittihad Jeddah",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T21:00:00": [
+        {
+            "id": "67c63bb033c24e0f5934cfed",
+            "home": "Celje",
+            "away": "Lugano",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934cfef",
+            "home": "Paphos",
+            "away": "Djurgarden",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934cff1",
+            "home": "Jagiellonia",
+            "away": "Cercle Brugge",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934cff3",
+            "home": "Borac Banja Luka",
+            "away": "Rapid",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d00d",
+            "home": "Roma",
+            "away": "Ath.Bilbao",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d00f",
+            "home": "Plzen",
+            "away": "Lazio",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d011",
+            "home": "Ajax",
+            "away": "Eintr.Frankfurt",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d013",
+            "home": "Bodo",
+            "away": "Olympiakos",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb033c24e0f5934d021",
+            "home": "Al Wahda",
+            "away": "Al Raed",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639c033c24e0f5934ced1",
+            "home": "Ajax",
+            "away": "Eintracht Frankfurt",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639c133c24e0f5934ced3",
+            "home": "Bodo/Glimt",
+            "away": "Olympiacos",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639c333c24e0f5934ced6",
+            "home": "Plzen",
+            "away": "Lazio",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639c433c24e0f5934ced9",
+            "home": "Roma",
+            "away": "Ath Bilbao",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639c533c24e0f5934cedb",
+            "home": "Borac Banja Luka",
+            "away": "Rapid Vienna",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639c633c24e0f5934cedd",
+            "home": "Celje",
+            "away": "Lugano",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639c833c24e0f5934cee1",
+            "home": "Jagiellonia",
+            "away": "Cercle Brugge",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639c933c24e0f5934cee3",
+            "home": "Pafos",
+            "away": "Djurgarden",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639ca33c24e0f5934cee5",
+            "home": "Al Wehda Mecca",
+            "away": "Al-Raed",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T23:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d134",
+            "home": "Guarani Asuncion",
+            "away": "2 de Mayo",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d136",
+            "home": "Cerro Largo ",
+            "away": "Danubio",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639cc33c24e0f5934cee8",
+            "home": "Cerro Largo",
+            "away": "Danubio",
+            "bookmaker": "Soccer"
+        },
+        {
+            "id": "67c639cd33c24e0f5934ceea",
+            "home": "Guarani Asuncion",
+            "away": "2 de Mayo",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-06T23:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d043",
+            "home": "Maringa",
+            "away": "Carmolandense",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c639ce33c24e0f5934ceed",
+            "home": "Maringa FC",
+            "away": "Uniao Carmolandense",
+            "bookmaker": "Soccer"
+        }
+    ],
+    "2025-03-07T01:30:00": [
+        {
+            "id": "67c63bb033c24e0f5934d045",
+            "home": "Olaria ",
+            "away": "Brusque",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d138",
+            "home": "Dep.La Guaira",
+            "away": "Caracas",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d13a",
+            "home": "Atletico Grau",
+            "away": "Cusco",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d13c",
+            "home": "CPD Junior",
+            "away": "America Cali",
+            "bookmaker": "Mozzart"
+        },
+        {
+            "id": "67c63bb633c24e0f5934d146",
+            "home": "Boston River",
+            "away": "Bahia ",
+            "bookmaker": "Mozzart"
+        }
+    ],
+    "2025-03-07T02:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d162",
+            "home": "Correcaminos",
+            "away": "Tepatitlan",
+            "bookmaker": "Mozzart"
+        }
+    ],
+    "2025-03-07T03:00:00": [
+        {
+            "id": "67c63bb633c24e0f5934d13e",
+            "home": "Universidad Catolica ",
+            "away": "Aucas",
+            "bookmaker": "Mozzart"
+        }
+    ]
+}
