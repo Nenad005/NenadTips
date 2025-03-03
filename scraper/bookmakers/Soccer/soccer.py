@@ -34,9 +34,10 @@ class SoccerBet(Bookmaker):
 
     def start_driver(self):
         CHROME_DRIVER_LAPTOP = 'C:/dev/Enterprise/NenadTips/scraper/chromedriver.exe'
+        CHROME_DRIVER_PC = 'F:/dev/NenadTips/scraper/chromedriver.exe'
         options = webdriver.ChromeOptions()
         options.add_argument("--start-maximized")
-        self.driver = webdriver.Chrome(service= Service(executable_path=CHROME_DRIVER_LAPTOP), options=options)
+        self.driver = webdriver.Chrome(service= Service(executable_path=CHROME_DRIVER_PC), options=options)
 
     def load_mapping(self):
         with open("soccer_football_mapping.json", "r", encoding="utf-8") as mapping_file:
