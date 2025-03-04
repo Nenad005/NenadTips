@@ -14,6 +14,13 @@
     [["double_chance", "fh", "12"], ["double_chance", "fh", "2x"], ["double_chance", "fh", "1x"]],
     [["double_chance", "ft", "12"], ["double_chance", "ft", "2x"], ["double_chance", "ft", "1x"]],
 
+    [["first_goal", "fh", "home"], ["first_goal", "fh", "away"], ["goals", "fh", "total", "0"]],
+    [["first_goal", "ft", "home"], ["first_goal", "ft", "away"], ["goals", "ft", "total", "0"]],
+
+    [["ggng", "fh", "gg"], ["ggng", "fh", "ng"]],
+    [["ggng", "sh", "gg"], ["ggng", "sh", "ng"]],
+    [["ggng", "ft", "gg"], ["ggng", "ft", "ng"]],
+
     [["goals", "fh", "home", "0"], ["goals", "fh", "home", "over_0.5"]],
     [["goals", "fh", "home", "0-1"], ["goals", "fh", "home", "over_1.5"]],
     [["goals", "fh", "away", "0"], ["goals", "fh", "away", "over_0.5"]],

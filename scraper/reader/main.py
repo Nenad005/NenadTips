@@ -74,6 +74,7 @@ def compare_odds(json1, json2):
     return json1 if json1 else json2
 
 def get_odd_from_instruction(highest_odds, instructions):
+    # print(json.dumps(highest_odds, indent=4))
     odds = highest_odds
     for instruction in instructions:
         odds = odds[instruction]
@@ -102,7 +103,8 @@ if __name__ == "__main__":
         for match1, match2 in combinations(matches, 2):
             # Check if both home and away teams match exactly
             if matcher.match(match1['home'], match1["away"], match2["home"], match2["away"]) and match1["bookmaker"] != match2["bookmaker"]:
-                print(match1, match2, sep="\n")
+                # print(match1, match2, sep="\n")
+                finds = []
 
                 match1_data = db_collections[match1["bookmaker"]].find_one({"_id": ObjectId(match1["id"])})
                 match2_data = db_collections[match2["bookmaker"]].find_one({"_id": ObjectId(match2["id"])})
@@ -114,7 +116,7 @@ if __name__ == "__main__":
                 with open("arbitrage_mappings.json", "r") as f:
                     mappings = json.load(f)
 
-                print(json.dumps(highest_odds, indent=4))
+                # print(json.dumps(highest_odds, indent=4))
 
                 for mapping in mappings:
                     odds = []
@@ -126,16 +128,27 @@ if __name__ == "__main__":
                         continue
 
                     arb = sum(1/x for x in odds)
-                    print(mapping, arb)
                     if arb < 1:
-                        for i in range(10):
-                            print("NASAO")
-                        print(odds)
+                        # for i in range(10):
+                        #     print("NASAO")
+                        finds.append({
+                            "arb": arb,
+                            "mapping": mapping,
+                            "odds": odds
+                        })
+
+                if len(finds) and not any(item["arb"] < 0.85 for item in finds):
+                    print(match1, match2, sep="\n")
+                    for find in finds:
+                        print(find["mapping"])
+                        print(f"arb : {find["arb"]} ---> odds : {find["odds"]}\n\n")
+
+                    print("-----------------------------------\n\n")
 
                 # print(json.dumps(match1_data, indent=4), json.dumps(match2_data, indent=4), sep="\n")
                 # print("-----------------------------------------")
                 # print("-----------------------------------------")
-                input()
+                # input()
 
 
     # print(grouped)

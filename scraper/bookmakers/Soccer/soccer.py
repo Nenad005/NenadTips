@@ -30,7 +30,7 @@ class SoccerBet(Bookmaker):
         self.close_driver()
 
     def get_collection_name(self):
-        return "SoccerBet"
+        return "Soccer"
 
     def start_driver(self):
         CHROME_DRIVER_LAPTOP = 'C:/dev/Enterprise/NenadTips/scraper/chromedriver.exe'
@@ -69,8 +69,8 @@ class SoccerBet(Bookmaker):
             self.driver.execute_script('document.querySelector("body > app-root > ng-component > ion-app > div > ds-main-layout > ds-main-layout-desktop > ion-row > ion-row > div.DESK-content--center > ion-router-outlet > ds-offer > ion-content").scrollByPoint(1000, 1000)')
             time.sleep(1)
 
-            if (prev_children_count > 200):
-                return
+            # if (prev_children_count > 200):
+            #     return
     
     def get_odds_from_html(self, html_content, map):
         soup = BeautifulSoup(html_content, "html.parser")
@@ -114,7 +114,7 @@ class SoccerBet(Bookmaker):
         
         for cat in map["odds"].keys():
             for subcat in map["odds"][cat].keys():
-                print(map["odds"][cat][subcat])
+                # print(map["odds"][cat][subcat])
                 for odd in map["odds"][cat][subcat]:
                     x = map["odds"][cat][subcat][odd]
 

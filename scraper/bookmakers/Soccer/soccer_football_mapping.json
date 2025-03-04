@@ -24,6 +24,20 @@
                 "away": ["Konačni Ishod", "2"]
             }
         },
+        "ggng": {
+            "fh": {
+                "gg": ["Oba Tima Daju Gol", "IGG"],
+                "ng": ["Oba Tima Daju Gol", "ING"]
+            },
+            "sh": {
+                "gg": ["Oba Tima Daju Gol", "IIGG"],
+                "ng": ["Oba Tima Daju Gol", "IING"]
+            },
+            "ft": {
+                "gg": ["Oba Tima Daju Gol", "GG"],
+                "ng": ["Oba Tima Daju Gol", "NG"]
+            }
+        },
         "first_goal": {
             "fh": {
                 "home": ["1. Pol. Prvi Daje Gol", "1"],
