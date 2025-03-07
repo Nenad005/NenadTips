@@ -23,7 +23,7 @@ class MeridianBet(Bookmaker):
 
         self.load_mapping()
         self.load_page()
-        self.scroll_to_bottom()
+        # self.scroll_to_bottom()
         self.get_odds_data_scrolled()
 
         self.close_db_session()
@@ -37,7 +37,7 @@ class MeridianBet(Bookmaker):
         CHROME_DRIVER_PC = 'F:/dev/NenadTips/scraper/chromedriver.exe'
         options = webdriver.ChromeOptions()
         options.add_argument("--start-maximized")
-        self.driver = webdriver.Chrome(service= Service(executable_path=CHROME_DRIVER_LAPTOP), options=options)
+        self.driver = webdriver.Chrome(service= Service(executable_path=CHROME_DRIVER_PC), options=options)
 
     def load_mapping(self):
         with open("meridian_football_mapping.json", "r", encoding="utf-8") as mapping_file:
@@ -156,44 +156,47 @@ class MeridianBet(Bookmaker):
             # * get the time and date string from the element
             time_string = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__period-time").textContent')
             date_string = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__period-min").textContent')
-            # input(f"{time_string} {date_string}")
+            print(f"[LOG] {time_string} {date_string}")
 
             # * get the team names from the element
             home = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__rivals--home").textContent').strip()
             away = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__rivals--away").textContent').strip()
-            # input(f"{home} {away}")
+            print(f"[LOG] {home} {away}")
 
 
             # * click on the bet element
             command = f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__info").click()'
             self.driver.execute_script(command)
+            print("[LOG] clicked on the bet element")
 
 
             # * wait for the odds to load
-            while self.driver.execute_script('return document.querySelector(".c-single-event-scoreboard__title")') != None:
+            while self.driver.execute_script('return document.querySelector(".c-single-event-scoreboard__title")') == None:
                 time.sleep(0.1)
+
+            print("[LOG] odds loaded")
 
             # input()
 
             # time.sleep(0.1)
             # * get the competition name from the bet element
-            # competiton = self.driver.execute_script('return document.querySelector(".c-single-event-scoreboard__title").textContent').strip()
+            competition = self.driver.execute_script('return document.querySelector(".c-single-event-scoreboard__title").textContent').strip()
+            print(f"[LOG] {competition}")
 
-            competition = ""
-            print(f"{home} {away} {date_string} {time_string} {competition}")
+            print(f"[LOG] Collected : {home} vs {away} | {date_string} at {time_string} | {competition}")
 
             # * start loading all odds and wait for them to load
             loaded = self.driver.execute_script('return document.querySelectorAll("event-game").length')
             self.driver.execute_script('document.querySelectorAll(".c-basic-slider-item--without-margin")[document.querySelectorAll(".c-basic-slider-item--without-margin").length -1].click()')
             wait_for_odds(loaded, 600, 50)
+            print("[LOG] odds loaded")
 
             # TODO get the odds html from the bet element
-            odds_element = self.driver.execute_script('return document.querySelector("ds-match-special-bet > div > div")')
-            if odds_element is None:
-                continue
-            else:
-                odds_html = self.driver.execute_script('return document.querySelector("ds-match-special-bet > div > div").innerHTML')
+            odds_html = self.driver.execute_script('return document.querySelector("single-event").innerHTML')
             map = copy.deepcopy(self.mapping_data)
+            with open("odds.html", "w", encoding="utf8") as f:
+                f.write(odds_html)
+                quit()
             # odds = self.get_odds_from_html(html_content=odds_html, map=map)
             # ! above not done
 
