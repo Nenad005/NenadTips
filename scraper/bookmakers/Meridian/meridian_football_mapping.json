@@ -9,136 +9,136 @@
     "odds": {
         "result": {
             "fh": {
-                "home": null,
-                "x": null,
-                "away": null
+                "home": ["I Pol. Konačan Ishod", "1"],
+                "x": ["I Pol. Konačan Ishod", "X"],
+                "away": ["I Pol. Konačan Ishod", "2"]
             },
             "sh": {
-                "home": null,
-                "x": null,
-                "away": null
+                "home": ["II Pol. Konačan Ishod", "1"],
+                "x": ["II Pol. Konačan Ishod", "X"],
+                "away": ["II Pol. Konačan Ishod", "2"]
             },
             "ft": {
-                "home": null,
-                "x": null,
-                "away": null
+                "home": ["Konačan Ishod", "1"],
+                "x": ["Konačan Ishod", "X"],
+                "away": ["Konačan Ishod", "2"]
             }
         },
         "ggng": {
             "fh": {
-                "gg": null,
-                "ng": null
+                "gg": ["I Pol.- Oba Tima Daju Gol", "I GG"],
+                "ng": ["I Pol.- Oba Tima Daju Gol", "I NG"]
             },
             "sh": {
-                "gg": null,
-                "ng": null
+                "gg": ["II Pol.- Oba Tima Daju Gol", "I GG"],
+                "ng": ["II Pol.- Oba Tima Daju Gol", "I NG"]
             },
             "ft": {
-                "gg": null,
-                "ng": null
+                "gg": ["Oba Tima Daju Gol", "GG"],
+                "ng": ["Oba Tima Daju Gol", "NG"]
             }
         },
         "first_goal": {
             "fh": {
-                "home": null,
-                "away": null
+                "home": ["I Pol.-Daje Prvi Gol", "1"],
+                "away": ["I Pol.-Daje Prvi Gol", "2"]
             },
             "ft": {
-                "home": null,
-                "away": null
+                "home": ["Daje Prvi Gol", "1"],
+                "away": ["Daje Prvi Gol", "2"]
             }
         },
         "double_chance": {
             "fh": {
-                "1x": null,
-                "2x": null,
-                "12": null
+                "1x": ["I Pol.- Dupla Šansa", "I 1X"],
+                "2x": ["I Pol.- Dupla Šansa", "I X2"],
+                "12": ["I Pol.- Dupla Šansa", "I 12"]
             },
             "ft": {
-                "1x": null,
-                "2x": null,
-                "12": null
+                "1x": ["Dupla Šansa", "1X"],
+                "2x": ["Dupla Šansa", "X2"],
+                "12": ["Dupla Šansa", "12"]
             }
         },
         "goals": {
             "fh": {
                 "home": {
-                    "0": null,
-                    "0-1": null,
-                    "over_0.5": null,
-                    "over_1.5": null
+                    "0": ["I Pol.- Domacin Ukupno", "Manje 0.5"],
+                    "0-1": ["I Pol.- Domacin Ukupno", "Manje 1.5"],
+                    "over_0.5": ["I Pol.- Domacin Ukupno", "Više 0.5"],
+                    "over_1.5": ["I Pol.- Domacin Ukupno", "Više 1.5"]
                 },
                 "away": {
-                    "0": null,
-                    "0-1": null,
-                    "over_0.5": null,
-                    "over_1.5": null
+                    "0": ["I Pol.- Gost Ukupno", "Manje 0.5"],
+                    "0-1": ["I Pol.- Gost Ukupno", "Manje 1.5"],
+                    "over_0.5": ["I Pol.- Gost Ukupno", "Više 0.5"],
+                    "over_1.5": ["I Pol.- Gost Ukupno", "Više 1.5"]
                 },
                 "total": {
-                    "0": null,
-                    "0-1": null,
-                    "0-2": null,
-                    "over_0.5": null,
-                    "over_1.5": null,
-                    "over_2.5": null
+                    "0": ["I Pol. Ukupno", "Manje 0.5"],
+                    "0-1": ["I Pol. Ukupno", "Manje 1.5"],
+                    "0-2": ["I Pol. Ukupno", "Manje 2.5"],
+                    "over_0.5": ["I Pol. Ukupno", "Više 0.5"],
+                    "over_1.5": ["I Pol. Ukupno", "Više 1.5"],
+                    "over_2.5": ["I Pol. Ukupno", "Više 2.5"]
                 }
             },
             "sh": {
                 "home": {
-                    "0": null,
-                    "0-1": null,
-                    "over_0.5": null,
-                    "over_1.5": null
+                    "0": ["II Pol.- Domacin Ukupno", "Manje 0.5"],
+                    "0-1": ["II Pol.- Domacin Ukupno", "Manje 1.5"],
+                    "over_0.5": ["II Pol.- Domacin Ukupno", "Više 0.5"],
+                    "over_1.5": ["II Pol.- Domacin Ukupno", "Više 1.5"]
                 },
                 "away": {
-                    "0": null,
-                    "0-1": null,
-                    "over_0.5": null,
-                    "over_1.5": null
+                    "0": ["II Pol.- Gost Ukupno", "Manje 0.5"],
+                    "0-1": ["II Pol.- Gost Ukupno", "Manje 1.5"],
+                    "over_0.5": ["II Pol.- Gost Ukupno", "Više 0.5"],
+                    "over_1.5": ["II Pol.- Gost Ukupno", "Više 1.5"]
                 },
                 "total": {
-                    "0": null,
-                    "0-1": null,
-                    "0-2": null,
-                    "over_0.5": null,
-                    "over_1.5": null,
-                    "over_2.5": null
+                    "0": ["II Pol. Ukupno", "Manje 0.5"],
+                    "0-1": ["II Pol. Ukupno", "Manje 1.5"],
+                    "0-2": ["II Pol. Ukupno", "Manje 2.5"],
+                    "over_0.5": ["II Pol. Ukupno", "Više 0.5"],
+                    "over_1.5": ["II Pol. Ukupno", "Više 1.5"],
+                    "over_2.5": ["II Pol. Ukupno", "Više 2.5"]
                 }
             },
             "ft": {
                 "home": {
-                    "0": null,
-                    "0-1": null,
-                    "0-2": null,
-                    "0-3": null,
-                    "over_0.5": null,
-                    "over_1.5": null,
-                    "over_2.5": null,
-                    "over_3.5": null
+                    "0": ["Domacin Ukupno", "Manje 0.5"],
+                    "0-1": ["Domacin Ukupno", "Manje 1.5"],
+                    "0-2": ["Domacin Ukupno", "Manje 2.5"],
+                    "0-3": ["Domacin Ukupno", "Manje 3.5"],
+                    "over_0.5": ["Domacin Ukupno", "Više 0.5"],
+                    "over_1.5": ["Domacin Ukupno", "Više 1.5"],
+                    "over_2.5": ["Domacin Ukupno", "Više 2.5"],
+                    "over_3.5": ["Domacin Ukupno", "Više 3.5"]
                 },
                 "away": {
-                    "0": null,
-                    "0-1": null,
-                    "0-2": null,
-                    "0-3": null,
-                    "over_0.5": null,
-                    "over_1.5": null,
-                    "over_2.5": null,
-                    "over_3.5": null
+                    "0": ["Gost Ukupno", "Manje 0.5"],
+                    "0-1": ["Gost Ukupno", "Manje 1.5"],
+                    "0-2": ["Gost Ukupno", "Manje 2.5"],
+                    "0-3": ["Gost Ukupno", "Manje 3.5"],
+                    "over_0.5": ["Gost Ukupno", "Više 0.5"],
+                    "over_1.5": ["Gost Ukupno", "Više 1.5"],
+                    "over_2.5": ["Gost Ukupno", "Više 2.5"],
+                    "over_3.5": ["Gost Ukupno", "Više 3.5"]
                 },
                 "total": {
-                    "0": null,
-                    "0-1": null,
-                    "0-2": null,
-                    "0-3": null,
-                    "0-4": null,
-                    "over_0.5": null,
-                    "over_1.5": null,
-                    "over_2.5": null,
-                    "over_3.5": null,
-                    "over_4.5": null,
-                    "even": null,
-                    "odd": null
+                    "0": ["Ukupno Golova", "Manje 0.5"],
+                    "0-1": ["Ukupno Golova", "Manje 1.5"],
+                    "0-2": ["Ukupno Golova", "Manje 2.5"],
+                    "0-3": ["Ukupno Golova", "Manje 3.5"],
+                    "0-4": ["Ukupno Golova", "Manje 4.5"],
+                    "over_0.5": ["Ukupno Golova", "Više 0.5"],
+                    "over_1.5": ["Ukupno Golova", "Više 1.5"],
+                    "over_2.5": ["Ukupno Golova", "Više 2.5"],
+                    "over_3.5": ["Ukupno Golova", "Više 3.5"],
+                    "over_4.5": ["Ukupno Golova", "Više 4.5"],
+                    "even": ["Par/Nepar", "Par"],
+                    "odd": ["Par/Nepar", "Nepar"]
                 }
             }
         }
