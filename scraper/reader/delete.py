@@ -5,7 +5,7 @@ import time
 
 MONGO_URI = "mongodb://localhost:27017/"
 DB_NAME = "NenadTips"
-COLLECTIONs = ["Mozzart", "Soccer"]
+COLLECTIONs = ["Mozzart", "Soccer", "Meridian"]
 
 def delete_old_documents(collection_name):
     client = MongoClient(MONGO_URI)

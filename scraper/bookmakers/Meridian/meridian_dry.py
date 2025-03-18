@@ -8,6 +8,8 @@ import time
 from seleniumwire import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from seleniumwire.utils import decode
 import re
@@ -38,7 +40,7 @@ class MeridianBet(Bookmaker):
         CHROME_DRIVER_PC = 'F:/dev/NenadTips/scraper/chromedriver.exe'
         options = webdriver.ChromeOptions()
         options.add_argument("--start-maximized")
-        self.driver = webdriver.Chrome(service= Service(executable_path=CHROME_DRIVER_LAPTOP), options=options)
+        self.driver = webdriver.Chrome(service= Service(executable_path=CHROME_DRIVER_PC), options=options)
 
     def load_mapping(self):
         with open("meridian_football_mapping.json", "r", encoding="utf-8") as mapping_file:
@@ -130,88 +132,85 @@ class MeridianBet(Bookmaker):
 
     def get_odds_data_scrolled(self):
         count = self.driver.execute_script('return document.querySelectorAll("standard-event").length')
-        print(f"Nasa : {count}")
-        # input()
-
-        # def wait_for_odds(loaded, timeout=500, interval=50):
-        #     start_time = time.time() * 1000
-        #     while (time.time() * 1000) - start_time < timeout:
-        #         if self.driver.execute_script('return document.querySelectorAll("event-game").length') > loaded: return
-        #         time.sleep(interval/1000)
-        #     return 
+        print(f"Nasao : {count}")
+        matches = {}
 
         for i in range(count):
-            # * get the time and date string from the element
-            time_string = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__period-time").textContent')
-            date_string = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__period-min").textContent')
-            # print(f"[LOG] {time_string} {date_string}")
+            print(f"Scraping match {i+1} of {count}")
+            try:
+                # * get the time and date string from the element
+                time_string = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__period-time").textContent')
+                date_string = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__period-min").textContent')
 
-            # * get the team names from the element
-            home = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__rivals--home").textContent').strip()
-            away = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__rivals--away").textContent').strip()
-            # print(f"[LOG] {home} {away}")
+                # * get the team names from the element
+                home = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__rivals--home").textContent').strip()
+                away = self.driver.execute_script(f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__rivals--away").textContent').strip()
 
-
-            # * click on the bet element
-            command = f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__info").click()'
-            self.driver.execute_script(command)
-            # print("[LOG] clicked on the bet element")
+                # * click on the bet element
+                command = f'return document.querySelectorAll("standard-event")[{i}].querySelector(".c-event__info").click()'
+                self.driver.execute_script(command)
 
 
-            # * wait for the odds to load
-            while self.driver.execute_script('return document.querySelector(".c-single-event-scoreboard__title")') == None:
-                time.sleep(0.1)
-            # print("[LOG] odds loaded")
+                # * wait for the odds to load
+                # while self.driver.execute_script('return document.querySelector(".c-single-event-scoreboard__title")') == None:
+                #     time.sleep(0.1)
+                # time.sleep(0.8)
 
-            # * get the competition name from the bet element
-            competition = self.driver.execute_script('return document.querySelector(".c-single-event-scoreboard__title").textContent').strip()
-            # print(f"[LOG] {competition}")
+                # * get the competition name from the bet element
+                comp_el = WebDriverWait(self.driver, 1).until(EC.visibility_of_element_located((By.CLASS_NAME, "c-single-event-scoreboard__title")))
+                competition = comp_el.text.strip()
+                # competition = self.driver.execute_script('return document.querySelector(".c-single-event-scoreboard__title").textContent').strip()
+                map = copy.deepcopy(self.mapping_data)
 
-            # print(f"[LOG] Collected : {home} vs {away} | {date_string} at {time_string} | {competition}")
+                # * get the match url and read the html
+                match_url = self.driver.execute_script('return document.querySelector("a.c-single-event-scoreboard__cta-btn").href')
+                date = self.string_to_date(date_string=date_string, time_string=time_string)
+                print(date, home, away, competition, match_url, sep=" | ")
 
-            # * start loading all odds and wait for them to load
-            # loaded = self.driver.execute_script('return document.querySelectorAll("event-game").length')
-            # self.driver.execute_script('document.querySelectorAll(".c-basic-slider-item--without-margin")[document.querySelectorAll(".c-basic-slider-item--without-margin").length -1].click()')
-            # wait_for_odds(loaded, 600, 50)
-            # print("[LOG] odds loaded")
+                map["teams"]["home"] = home
+                map["teams"]["away"] = away
+                map["competition"] = competition
+                map["time"] = date.isoformat()
+                map["match_url"] = match_url
 
-            # * get the odds html from the bet element
-            # odds_html = self.driver.execute_script('return document.querySelector("single-event").innerHTML')
-            map = copy.deepcopy(self.mapping_data)
-            # with open("odds.html", "w", encoding="utf8") as f:
-            #     f.write(odds_html)
-            #     quit()
-            # odds = self.get_odds_from_html(html_content=odds_html, map=map)
+                event_id = match_url.split("/")[-1]
+                request_url = f"https://online.meridianbet.com/betshop/api/v2/events/{event_id}/markets?gameGroupId=all"
 
-            # * get the match url and read the html
-            match_url = self.driver.execute_script('return document.querySelector("a.c-single-event-scoreboard__cta-btn").href')
-            date = self.string_to_date(date_string=date_string, time_string=time_string)
-            print(date, home, away, competition, match_url, sep=" | ")
+                matches[request_url] = map
 
-            map["teams"]["home"] = home
-            map["teams"]["away"] = away
-            map["competition"] = competition
-            map["time"] = date.isoformat()
-            map["match_url"] = match_url
-            # input("zavrsio 1")
+            except Exception as e:
+                print(e)
+                continue
+        time.sleep(5)
+        print("Scrapped all matches, saving . . .")
 
-            time.sleep(3)
-            event_id = match_url.split("/")[-1]
-            request_url = f"https://online.meridianbet.com/betshop/api/v2/events/{event_id}/markets?gameGroupId=all"
-            while not any(request.url == request_url for request in self.driver.requests):
-                pass
 
-            for request in self.driver.requests:
-                if request.url == request_url:
-                    body = decode(request.response.body, request.response.headers.get("Content-Encoding", "identity"))
-                    # print(body)
-                    json_data = json.loads(body.decode("utf-8"))
+        requests_map = {}
+        for request in self.driver.requests:
+            requests_map[request.url] = request
 
-                    odds = self.get_odds_from_json(json_data=json_data, map=map, home=home, away=away)
+        for url in matches.keys():
+            if url not in requests_map.keys():
+                continue
+            request = requests_map[url]
+            if not hasattr(request.response, "body"):
+                continue
+            body = decode(request.response.body, request.response.headers.get("Content-Encoding", "identity"))
+            json_data = json.loads(body.decode("utf-8"))
+            self.get_odds_from_json(json_data=json_data, map=matches[url], home=matches[url]["teams"]["home"], away=matches[url]["teams"]["away"])
+            
+            self.upsert_match(matches[url])
 
-            # input()
-
-            self.upsert_match(match_data=map)
+        # time.sleep(5)
+        # pattern = r'https:\/\/online\.meridianbet\.com\/betshop\/api\/v2\/events\/[0-9]*\/markets\?gameGroupId=all'
+        # for request in self.driver.requests:
+        #     if re.match(pattern, request.url):
+        #         if not hasattr(request.response, "body"):
+        #             continue
+        #         map = copy.deepcopy(self.mapping_data)
+        #         body = decode(request.response.body, request.response.headers.get("Content-Encoding", "identity"))
+        #         json_data = json.loads(body.decode("utf-8"))
+        #         odds = self.get_odds_from_json(json_data=json_data, map=map, home=home, away=away)
 
 if __name__ == "__main__":
     bet = MeridianBet()
