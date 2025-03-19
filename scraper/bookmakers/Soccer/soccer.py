@@ -37,7 +37,7 @@ class SoccerBet(Bookmaker):
         CHROME_DRIVER_PC = 'F:/dev/NenadTips/scraper/chromedriver.exe'
         options = webdriver.ChromeOptions()
         options.add_argument("--start-maximized")
-        self.driver = webdriver.Chrome(service= Service(executable_path=CHROME_DRIVER_PC), options=options)
+        self.driver = webdriver.Chrome(service= Service(executable_path=CHROME_DRIVER_LAPTOP), options=options)
 
     def load_mapping(self):
         with open("soccer_football_mapping.json", "r", encoding="utf-8") as mapping_file:
@@ -48,7 +48,7 @@ class SoccerBet(Bookmaker):
         time.sleep(5)
         self.driver.execute_script('document.querySelector("body > app-root > ng-component > ion-app > div > ds-main-layout > ds-main-layout-desktop > ion-row > ion-row > div.DESK-content--center > ion-router-outlet > ds-offer > ion-content > ds-offer-landing > ds-offer-landing-desk > ds-offer-type-filter > ion-row > ion-button.offer-type-filter--btn.offer-type-filter--btn-calendar.ion-color.ion-color-clear.ios.button.button-solid.ion-activatable.ion-focusable.hydrated").shadowRoot.querySelector("button").click()')
         time.sleep(1)
-        self.driver.execute_script('document.querySelector("body > app-root > ng-component > ion-app > div > ds-main-layout > ds-main-layout-desktop > div > ion-row > ds-time-offer-filter > ion-row > ion-button:nth-child(4)").shadowRoot.querySelector("button").click()')
+        # self.driver.execute_script('document.querySelector("body > app-root > ng-component > ion-app > div > ds-main-layout > ds-main-layout-desktop > div > ion-row > ds-time-offer-filter > ion-row > ion-button:nth-child(4)").shadowRoot.querySelector("button").click()')
         time.sleep(1)
 
     def close_driver(self):

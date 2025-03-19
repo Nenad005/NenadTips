@@ -128,7 +128,8 @@ class MozzartBet(Bookmaker):
         print(f"Requesting page {page}...")
         url = f"{PROXY_ADDRESS}https://www.mozzartbet.com/betting/matches"
         data = {
-            "date": "three_days",
+            # "date": "three_days",
+            "date": "all_days",
             "sort": "bycompetition",
             "currentPage": page,
             "pageSize": 100,

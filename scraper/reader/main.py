@@ -7,7 +7,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 
 COLLECTIONS = {
-    'Meridian': [],
+    'Mozzart': [],
     'Soccer': [],
 }
 
@@ -84,7 +84,7 @@ def get_odd_from_instruction(highest_odds, instructions):
 
 if __name__ == "__main__":
     get_all_documents()
-    print(len(COLLECTIONS['Meridian']))
+    print(len(COLLECTIONS['Mozzart']))
     print(len(COLLECTIONS['Soccer']))
     grouped = group_by_timestamps()
     matcher = TeamMatcher()
@@ -92,7 +92,7 @@ if __name__ == "__main__":
     client = MongoClient("mongodb://localhost:27017/")
     db = client["NenadTips"]
     db_collections = {
-        "Meridian": db["Meridian"],
+        "Mozzart": db["Mozzart"],
         "Soccer": db["Soccer"],
     }
     matches = db["Matches"],
@@ -137,7 +137,7 @@ if __name__ == "__main__":
                             "odds": odds
                         })
 
-                if len(finds) and not any(item["arb"] < 0.85 for item in finds):
+                if len(finds) and not any(item["arb"] < 0.5 for item in finds):
                     print(match1, match2, sep="\n")
                     for find in finds:
                         print(find["mapping"])

@@ -75,34 +75,34 @@
                     "over_1.5": ["I Pol.- Gost Ukupno", "Više 1.5"]
                 },
                 "total": {
-                    "0": ["I Pol. Ukupno", "Manje 0.5"],
-                    "0-1": ["I Pol. Ukupno", "Manje 1.5"],
-                    "0-2": ["I Pol. Ukupno", "Manje 2.5"],
-                    "over_0.5": ["I Pol. Ukupno", "Više 0.5"],
-                    "over_1.5": ["I Pol. Ukupno", "Više 1.5"],
-                    "over_2.5": ["I Pol. Ukupno", "Više 2.5"]
+                    "0": ["I Pol. Ukupno Golova", "Manje 0.5"],
+                    "0-1": ["I Pol. Ukupno Golova", "Manje 1.5"],
+                    "0-2": ["I Pol. Ukupno Golova", "Manje 2.5"],
+                    "over_0.5": ["I Pol. Ukupno Golova", "Više 0.5"],
+                    "over_1.5": ["I Pol. Ukupno Golova", "Više 1.5"],
+                    "over_2.5": ["I Pol. Ukupno Golova", "Više 2.5"]
                 }
             },
             "sh": {
                 "home": {
-                    "0": ["II Pol.- Domacin Ukupno", "Manje 0.5"],
-                    "0-1": ["II Pol.- Domacin Ukupno", "Manje 1.5"],
-                    "over_0.5": ["II Pol.- Domacin Ukupno", "Više 0.5"],
-                    "over_1.5": ["II Pol.- Domacin Ukupno", "Više 1.5"]
+                    "0": ["II Pol. - Domacin Ukupno", "Manje 0.5"],
+                    "0-1": ["II Pol. - Domacin Ukupno", "Manje 1.5"],
+                    "over_0.5": ["II Pol. - Domacin Ukupno", "Više 0.5"],
+                    "over_1.5": ["II Pol. - Domacin Ukupno", "Više 1.5"]
                 },
                 "away": {
-                    "0": ["II Pol.- Gost Ukupno", "Manje 0.5"],
-                    "0-1": ["II Pol.- Gost Ukupno", "Manje 1.5"],
-                    "over_0.5": ["II Pol.- Gost Ukupno", "Više 0.5"],
-                    "over_1.5": ["II Pol.- Gost Ukupno", "Više 1.5"]
+                    "0": ["II Pol. - Gost Ukupno", "Manje 0.5"],
+                    "0-1": ["II Pol. - Gost Ukupno", "Manje 1.5"],
+                    "over_0.5": ["II Pol. - Gost Ukupno", "Više 0.5"],
+                    "over_1.5": ["II Pol. - Gost Ukupno", "Više 1.5"]
                 },
                 "total": {
-                    "0": ["II Pol. Ukupno", "Manje 0.5"],
-                    "0-1": ["II Pol. Ukupno", "Manje 1.5"],
-                    "0-2": ["II Pol. Ukupno", "Manje 2.5"],
-                    "over_0.5": ["II Pol. Ukupno", "Više 0.5"],
-                    "over_1.5": ["II Pol. Ukupno", "Više 1.5"],
-                    "over_2.5": ["II Pol. Ukupno", "Više 2.5"]
+                    "0": ["II Pol. Ukupno Golova", "Manje 0.5"],
+                    "0-1": ["II Pol. Ukupno Golova", "Manje 1.5"],
+                    "0-2": ["II Pol. Ukupno Golova", "Manje 2.5"],
+                    "over_0.5": ["II Pol. Ukupno Golova", "Više 0.5"],
+                    "over_1.5": ["II Pol. Ukupno Golova", "Više 1.5"],
+                    "over_2.5": ["II Pol. Ukupno Golova", "Više 2.5"]
                 }
             },
             "ft": {
